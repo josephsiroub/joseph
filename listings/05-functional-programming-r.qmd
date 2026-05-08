@@ -1,0 +1,26 @@
+---
+title: "Functional Programming in R"
+image: "../images/hero.jpeg"
+categories: [R, Functional Programming, Purrr, Automation]
+index: 5
+---
+
+## Overview
+
+I practiced control flow, custom functions, and function mapping in R to reduce repetition and build more reusable analysis workflows.
+
+The work connected basic programming concepts to analytics productivity. When analysis tasks repeat across years, countries, groups, or variables, functions make the work easier to scale and easier to check.
+
+## Skills Demonstrated
+
+- Writing `if` and `else if` logic.
+- Creating loops and custom functions.
+- Using `apply`, `lapply`, and `sapply`.
+- Using `purrr::map` for repeated analysis.
+- Building reusable plotting functions.
+
+## Reflection
+
+The main lesson was that functions help turn repeated code into a clear workflow. This supports scalable reporting, automated dashboards, and cleaner analysis projects.
+
+Functional programming also supports Quarto reporting because reusable functions can power repeated charts, parameterized reports, and automated summaries.

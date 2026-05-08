@@ -1,0 +1,534 @@
+[
+  {
+    "objectID": "listings/06-ga4-certification-reflection.html",
+    "href": "listings/06-ga4-certification-reflection.html",
+    "title": "GA4 Certification Reflection",
+    "section": "",
+    "text": "I passed the Google Analytics certification with a reported score of 88. My reflection connects GA4 concepts to practical customer engagement analysis.\nThe certification provides evidence of my foundational knowledge in GA4 reporting, implementation concepts, audiences, dimensions, events, and integrations."
+  },
+  {
+    "objectID": "listings/06-ga4-certification-reflection.html#overview",
+    "href": "listings/06-ga4-certification-reflection.html#overview",
+    "title": "GA4 Certification Reflection",
+    "section": "",
+    "text": "I passed the Google Analytics certification with a reported score of 88. My reflection connects GA4 concepts to practical customer engagement analysis.\nThe certification provides evidence of my foundational knowledge in GA4 reporting, implementation concepts, audiences, dimensions, events, and integrations."
+  },
+  {
+    "objectID": "listings/06-ga4-certification-reflection.html#strong-areas",
+    "href": "listings/06-ga4-certification-reflection.html#strong-areas",
+    "title": "GA4 Certification Reflection",
+    "section": "Strong Areas",
+    "text": "Strong Areas\n\nGA4 events, audiences, dimensions, and reports.\nUnderstanding user acquisition and traffic acquisition.\nConnecting measurement strategy to business goals."
+  },
+  {
+    "objectID": "listings/06-ga4-certification-reflection.html#growth-areas",
+    "href": "listings/06-ga4-certification-reflection.html#growth-areas",
+    "title": "GA4 Certification Reflection",
+    "section": "Growth Areas",
+    "text": "Growth Areas\n\nBigQuery exports and SQL-based analysis.\nCustomizing reports and dimensions.\nChoosing the right exploration method for a question."
+  },
+  {
+    "objectID": "listings/06-ga4-certification-reflection.html#portfolio-connection",
+    "href": "listings/06-ga4-certification-reflection.html#portfolio-connection",
+    "title": "GA4 Certification Reflection",
+    "section": "Portfolio Connection",
+    "text": "Portfolio Connection\nThe certification supports one of my broader professional goals: using analytics platforms to understand user behavior, improve marketing performance, and guide data-driven customer engagement.\nIt also identifies the next learning path: deeper BigQuery export analysis, stronger report customization, and more confident selection between exploration methods such as free-form analysis and funnel analysis."
+  },
+  {
+    "objectID": "listings/04-data-import-export.html",
+    "href": "listings/04-data-import-export.html",
+    "title": "Data Import, Export, and Web Scraping",
+    "section": "",
+    "text": "I focused on bringing data into R from multiple sources, cleaning it, and exporting useful results.\nThe assignment mirrors a common workplace reality: business data often arrives from spreadsheets, copied tables, web pages, or external systems, and each source needs a slightly different cleaning process."
+  },
+  {
+    "objectID": "listings/04-data-import-export.html#overview",
+    "href": "listings/04-data-import-export.html#overview",
+    "title": "Data Import, Export, and Web Scraping",
+    "section": "",
+    "text": "I focused on bringing data into R from multiple sources, cleaning it, and exporting useful results.\nThe assignment mirrors a common workplace reality: business data often arrives from spreadsheets, copied tables, web pages, or external systems, and each source needs a slightly different cleaning process."
+  },
+  {
+    "objectID": "listings/04-data-import-export.html#skills-demonstrated",
+    "href": "listings/04-data-import-export.html#skills-demonstrated",
+    "title": "Data Import, Export, and Web Scraping",
+    "section": "Skills Demonstrated",
+    "text": "Skills Demonstrated\n\nImporting CSV and Excel files.\nCleaning clipboard data with missing value placeholders.\nExporting data to CSV and Excel.\nScraping IMDb Top 250 movie information from an archived webpage.\nWorking with labelled SPSS data.\nCombining education and GDP indicators for analysis."
+  },
+  {
+    "objectID": "listings/04-data-import-export.html#value",
+    "href": "listings/04-data-import-export.html#value",
+    "title": "Data Import, Export, and Web Scraping",
+    "section": "Value",
+    "text": "Value\nImport and export skills are essential for real analytics workflows because useful business data rarely arrives in one clean format.\nThis project also helped me think about reproducibility. Cleaned data and saved plots can be shared with others, included in reports, or used as inputs for later analysis."
+  },
+  {
+    "objectID": "listings/02-bigquery-looker-studio.html",
+    "href": "listings/02-bigquery-looker-studio.html",
+    "title": "BigQuery and Looker Studio Workflow",
+    "section": "",
+    "text": "I summarized a full analytics workflow using BigQuery for data mining and Looker Studio for interactive dashboard communication.\nThe work helped me understand how cloud-based analytics tools can support larger and more flexible analysis than a standard interface can provide."
+  },
+  {
+    "objectID": "listings/02-bigquery-looker-studio.html#overview",
+    "href": "listings/02-bigquery-looker-studio.html#overview",
+    "title": "BigQuery and Looker Studio Workflow",
+    "section": "",
+    "text": "I summarized a full analytics workflow using BigQuery for data mining and Looker Studio for interactive dashboard communication.\nThe work helped me understand how cloud-based analytics tools can support larger and more flexible analysis than a standard interface can provide."
+  },
+  {
+    "objectID": "listings/02-bigquery-looker-studio.html#skills-demonstrated",
+    "href": "listings/02-bigquery-looker-studio.html#skills-demonstrated",
+    "title": "BigQuery and Looker Studio Workflow",
+    "section": "Skills Demonstrated",
+    "text": "Skills Demonstrated\n\nQuerying large datasets with SQL concepts.\nFiltering, grouping, aggregating, and joining data.\nConnecting analysis outputs to dashboard visuals.\nSelecting charts that communicate trends clearly."
+  },
+  {
+    "objectID": "listings/02-bigquery-looker-studio.html#business-use",
+    "href": "listings/02-bigquery-looker-studio.html#business-use",
+    "title": "BigQuery and Looker Studio Workflow",
+    "section": "Business Use",
+    "text": "Business Use\nFor a real estate customer engagement plan, BigQuery can support deeper analysis of housing demand, regional price movement, and long-term market trends that are difficult to explore in the GA4 interface alone.\nLooker Studio provides a presentation layer where those findings can be organized into charts, filters, and dashboards for a nontechnical audience. That same workflow could also apply to sports marketing, where teams and agencies need to understand fan behavior, campaign performance, and audience engagement."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Glendora, California\n(636) 418-0472 | siroubjoseph@gmail.com\nLinkedIn: Joseph Siroub LinkedIn Profile"
+  },
+  {
+    "objectID": "resume.html#california-state-polytechnic-university-pomona",
+    "href": "resume.html#california-state-polytechnic-university-pomona",
+    "title": "Resume",
+    "section": "California State Polytechnic University, Pomona",
+    "text": "California State Polytechnic University, Pomona\nPomona, California\nBachelor of Science in Marketing Management\nCollege of Business Administration\nExpected Graduation: [Month, Year]\nCurrently pursuing a degree focused on marketing strategy, business operations, consumer behavior, and organizational management. Developing foundational and advanced knowledge in marketing principles, communication strategies, analytics, and business administration through coursework and practical experience.\n\nAreas of Academic Development\n\nMarketing strategy and brand management\nConsumer engagement and communication\nBusiness operations and organizational processes\nTeam collaboration and project coordination\nAnalytical problem-solving and decision-making\nAdministrative and professional communication skills"
+  },
+  {
+    "objectID": "resume.html#mt.-san-antonio-college",
+    "href": "resume.html#mt.-san-antonio-college",
+    "title": "Resume",
+    "section": "Mt. San Antonio College",
+    "text": "Mt. San Antonio College\nCalifornia\nAssociate of Science in Marketing Management\nCompleted foundational coursework in marketing management and business administration while building practical communication, organization, and analytical skills relevant to professional business environments.\n\nAcademic Focus\n\nMarketing fundamentals\nBusiness communication\nAdministrative processes\nOrganizational development\nCustomer engagement concepts"
+  },
+  {
+    "objectID": "resume.html#high-school-diploma",
+    "href": "resume.html#high-school-diploma",
+    "title": "Resume",
+    "section": "High School Diploma",
+    "text": "High School Diploma\nCompleted secondary education while developing strong teamwork, discipline, and leadership abilities through academics, extracurricular involvement, and athletics."
+  },
+  {
+    "objectID": "resume.html#operations-compliance-support",
+    "href": "resume.html#operations-compliance-support",
+    "title": "Resume",
+    "section": "Operations & Compliance Support",
+    "text": "Operations & Compliance Support\n\nIntegrated Demolition & Remediation\nJuly 2025 - Present\nProvide operational and administrative support within a fast-paced work environment requiring strong attention to detail, communication, compliance awareness, and organizational efficiency. Work closely with estimators, project managers, field personnel, and operations leadership to maintain accurate documentation, support payroll processing, and ensure smooth coordination across multiple projects and departments.\n\n\nResponsibilities & Contributions\n\nSupport project managers, estimators, and operational leadership with administrative coordination and documentation management\nProcess payroll with careful attention to labor compliance standards, reporting accuracy, and organizational procedures\nPrepare, review, and maintain employment documentation including I-9 and W-4 forms in accordance with federal compliance requirements\nPerform high-volume data entry while maintaining accuracy, consistency, and confidentiality within payroll and compliance systems\nCommunicate directly with supervisors, field personnel, and clients to ensure operational alignment and timely execution of project objectives\nTravel to active job sites to provide administrative assistance, operational support, and logistical coordination as required\nOrganize and maintain structured filing and documentation systems to improve workflow efficiency and record management accuracy\nContribute to maintaining smooth daily operations through proactive communication and administrative reliability\nSupport cross-functional teams by ensuring important operational information is processed and communicated efficiently\n\n\n\nSkills Strengthened\n\nOperations coordination\nPayroll administration\nCompliance documentation management\nAdministrative organization\nClient and team communication\nTime management and multitasking\nData accuracy and reporting\nProblem-solving in fast-paced environments"
+  },
+  {
+    "objectID": "r-analytics.html",
+    "href": "r-analytics.html",
+    "title": "R Analytics",
+    "section": "",
+    "text": "My R analytics work shows my development from basic data manipulation toward more reusable and report-ready workflows. The assignments cover data wrangling, visualization, import/export, missing values, labelled data, web scraping, and functional programming."
+  },
+  {
+    "objectID": "r-analytics.html#r-analytics-overview",
+    "href": "r-analytics.html#r-analytics-overview",
+    "title": "R Analytics",
+    "section": "",
+    "text": "My R analytics work shows my development from basic data manipulation toward more reusable and report-ready workflows. The assignments cover data wrangling, visualization, import/export, missing values, labelled data, web scraping, and functional programming."
+  },
+  {
+    "objectID": "r-analytics.html#data-wrangling-with-tidyverse",
+    "href": "r-analytics.html#data-wrangling-with-tidyverse",
+    "title": "R Analytics",
+    "section": "Data Wrangling with Tidyverse",
+    "text": "Data Wrangling with Tidyverse\nThe tidyverse work includes practice with airquality, relig_income, us_rent_income, and nycflights13. Through these exercises, I practiced common data-analysis tasks:\n\nConverting between data frames and tibbles.\nFiltering records by condition.\nGrouping and summarizing values.\nReshaping datasets from wide to long format.\nReshaping datasets from long to wide format.\nCreating ggplot2 visualizations.\nInterpreting whether a dataset is structured appropriately for a chart.\n\nThe main lesson for me is that analysis depends on structure. Before a chart or dashboard can be useful, the data has to be organized in a way that matches the question."
+  },
+  {
+    "objectID": "r-analytics.html#missing-values-and-data-quality",
+    "href": "r-analytics.html#missing-values-and-data-quality",
+    "title": "R Analytics",
+    "section": "Missing Values and Data Quality",
+    "text": "Missing Values and Data Quality\nI practiced checking for missing values, summarizing missingness, replacing missing values, and standardizing placeholders such as N/A, --, and numeric missing-value codes.\nThis is an important analytics habit because decisions should not be based on data that has not been reviewed for quality. Before producing a chart or recommendation, I want to understand whether the data is complete, consistent, and reliable."
+  },
+  {
+    "objectID": "r-analytics.html#data-import-export-and-web-scraping",
+    "href": "r-analytics.html#data-import-export-and-web-scraping",
+    "title": "R Analytics",
+    "section": "Data Import, Export, and Web Scraping",
+    "text": "Data Import, Export, and Web Scraping\nMy import/export work includes CSV files, Excel files, clipboard data, SPSS labelled data, and web-scraped data from an archived IMDb page. I also practiced exporting cleaned datasets and saving plots in image and PDF formats.\nThese skills matter because real workplace data often comes from different systems and formats. Being able to import, clean, standardize, and export data is useful in marketing, operations, and sports business environments."
+  },
+  {
+    "objectID": "r-analytics.html#visualization-and-reporting",
+    "href": "r-analytics.html#visualization-and-reporting",
+    "title": "R Analytics",
+    "section": "Visualization and Reporting",
+    "text": "Visualization and Reporting\nThe R work includes visualizations such as:\n\nArrival delay patterns by month.\nIncome distribution by religious affiliation.\nMedian income versus median rent across U.S. states.\nTemperature and ozone relationships.\nStudent-teacher ratio comparisons.\nJob-related technology ownership proportions.\n\nThese projects helped me practice turning data into visuals that can be interpreted by someone else, not just analyzed in code."
+  },
+  {
+    "objectID": "r-analytics.html#functional-programming",
+    "href": "r-analytics.html#functional-programming",
+    "title": "R Analytics",
+    "section": "Functional Programming",
+    "text": "Functional Programming\nThe advanced R programming work focused on reducing repetition with functions. I practiced:\n\nConditional logic with if and else.\nLoops for repeated checks.\nCustom functions such as power calculations.\napply, lapply, and sapply.\npurrr::map workflows.\nReusable plotting functions.\n\nThe biggest takeaway is that functions make analysis more scalable. Instead of rewriting similar code repeatedly, I can define logic once and apply it consistently."
+  },
+  {
+    "objectID": "r-analytics.html#reporting-and-data-storytelling",
+    "href": "r-analytics.html#reporting-and-data-storytelling",
+    "title": "R Analytics",
+    "section": "Reporting and Data Storytelling",
+    "text": "Reporting and Data Storytelling\nMy reflection work connected R programming to dashboards, parameterized reporting, and data storytelling. A strong report should not just display data; it should help the audience focus on what matters.\nThat lesson is especially important for my sports marketing interests. Whether the audience is a fan base, an athlete, a brand partner, or an internal team, the goal is to communicate information clearly enough for people to make decisions."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "My projects show the technical and professional skills I am building through marketing analytics, GA4, BigQuery, Looker Studio, R programming, data wrangling, and reporting. Each project connects to a practical skill I can use in marketing, sports business, operations, or customer engagement work."
+  },
+  {
+    "objectID": "projects.html#project-areas",
+    "href": "projects.html#project-areas",
+    "title": "Projects",
+    "section": "Project Areas",
+    "text": "Project Areas\n\nGA4 and customer engagement: Funnel analysis, traffic behavior, lead acquisition, and conversion recommendations.\nCloud analytics and dashboards: BigQuery concepts, SQL-based analysis, and Looker Studio reporting.\nR analytics: Tidyverse wrangling, visualization, import/export, missing values, and functional programming.\nProfessional communication: Clear summaries, project reflections, next-step recommendations, and client-oriented conclusions.\n\nI am especially interested in using these skills in the sports industry, where fan behavior, media engagement, brand partnerships, and campaign performance all depend on understanding audiences clearly."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am currently a student at California State Polytechnic University, Pomona, where I am majoring in Marketing Management. I graduate in one year, and I am focused on building a career that allows me to combine marketing, communication, sports, media, and business strategy.\nBefore transferring to Cal Poly Pomona, I attended Mt. San Antonio College and earned my Associate of Science in Marketing Management. That path helped me build a strong foundation in marketing fundamentals, business communication, customer engagement, and professional organization."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "I am currently a student at California State Polytechnic University, Pomona, where I am majoring in Marketing Management. I graduate in one year, and I am focused on building a career that allows me to combine marketing, communication, sports, media, and business strategy.\nBefore transferring to Cal Poly Pomona, I attended Mt. San Antonio College and earned my Associate of Science in Marketing Management. That path helped me build a strong foundation in marketing fundamentals, business communication, customer engagement, and professional organization."
+  },
+  {
+    "objectID": "about.html#career-direction",
+    "href": "about.html#career-direction",
+    "title": "About",
+    "section": "Career Direction",
+    "text": "Career Direction\nMy career aspiration is to work in the sports world. I am especially interested in roles where I can use marketing skills in sports media, athlete representation, brand engagement, or agency work. I want to be involved in the business side of sports, helping athletes, teams, brands, or media organizations connect with audiences in a meaningful and professional way.\nSports have always shaped the way I approach work. A competitive sports background has taught me discipline, accountability, teamwork, leadership, and how to perform under pressure. Those qualities are important to me because the sports industry moves quickly and depends on trust, preparation, communication, and results."
+  },
+  {
+    "objectID": "about.html#academic-and-professional-background",
+    "href": "about.html#academic-and-professional-background",
+    "title": "About",
+    "section": "Academic and Professional Background",
+    "text": "Academic and Professional Background\nMy academic work has focused on marketing strategy, consumer behavior, business operations, communication, analytics, and organizational management. Through coursework and projects, I have gained experience with Google Analytics 4, BigQuery, Looker Studio, R programming, dashboard reporting, data wrangling, and customer engagement analysis.\nProfessionally, I have hands-on experience in operations and compliance support. In my current role at Integrated Demolition & Remediation, I support administrative coordination, payroll processing, compliance documentation, data entry, project communication, and job-site operational needs. This experience has made me more organized, detail-oriented, and comfortable working with different teams in fast-paced environments."
+  },
+  {
+    "objectID": "about.html#what-i-bring",
+    "href": "about.html#what-i-bring",
+    "title": "About",
+    "section": "What I Bring",
+    "text": "What I Bring\nI bring a mix of marketing knowledge, operational experience, analytical curiosity, and a team-first mindset. I am comfortable handling detailed work, communicating across departments, learning new tools, and staying reliable when responsibilities need to be managed accurately.\nThe strongest part of my professional identity is that I care about both the strategy and the execution. I want to understand the big-picture marketing goal, but I also respect the detailed work required to make that goal happen."
+  },
+  {
+    "objectID": "about.html#portfolio-focus",
+    "href": "about.html#portfolio-focus",
+    "title": "About",
+    "section": "Portfolio Focus",
+    "text": "Portfolio Focus\nThis portfolio highlights the skills I am building as I move toward a career in sports marketing and business. It includes marketing analytics work, GA4 certification evidence, dashboard concepts, R analytics projects, and professional experience that shows my ability to stay organized, communicate clearly, and support business operations."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Joseph Siroub",
+    "section": "",
+    "text": "Marketing Management student. Sports business and analytics focused.\nI am a Marketing Management major at Cal Poly Pomona with an Associate of Science in Marketing Management from Mt. San Antonio College. I graduate in one year, and my goal is to work in the sports world through sports media, athlete representation, brand engagement, or agency work.\nMy background combines marketing coursework, GA4 and R analytics projects, and hands-on operations experience in payroll, compliance documentation, data entry, and cross-functional coordination.\n\nAbout Projects Resume\n\n\n\n\n\n\n\n\n\n\n\n\n\nStudy marketing strategy, consumer engagement, brand awareness, and business operations.\nFollow sports media, athlete branding, social media trends, and fan engagement.\nBring a competitive sports background shaped by teamwork, discipline, and performing under pressure.\n\nRead about me\n\n\n\n\nUse GA4, BigQuery concepts, Looker Studio, R, and tidyverse workflows to analyze behavior and communicate insights.\nSupport real workplace operations through documentation, payroll, compliance processes, and team coordination.\nBuild organized reports that connect data to decisions.\n\nView skills\n\n\n\n\n\n\nI am currently building toward a career where marketing, communication, sports, and relationship management come together. My academic path has given me a foundation in marketing management, while my project work has helped me practice analytics and reporting. My professional experience has strengthened my organization, accuracy, and ability to communicate across teams.\nI am especially interested in roles connected to sports media, athlete representation, brand partnerships, agency work, and fan engagement strategy.\n\n\n\n\n\n\n\nAnalyzed a conversion path from homepage views to purchases, identified the largest drop-off point, and recommended improvements for homepage engagement.\nView project\n\n\n\nStudied how cloud analytics and dashboards can move from raw data to visual communication for marketing and customer engagement decisions.\nView project\n\n\n\nUsed tidyverse tools to clean, reshape, summarize, and visualize datasets while building a foundation for practical reporting.\nView project\n\n\n\n\n\n\n\nGoogle Analytics certification — reported score of 88.\nAssociate of Science in Marketing Management — Mt. San Antonio College.\nBachelor of Science in Marketing Management in progress — California State Polytechnic University, Pomona.\nOperations & Compliance Support experience — Integrated Demolition & Remediation.\n\n\n\n\n\nI am interested in opportunities where I can contribute marketing, communication, analytics, and operations skills, especially in sports-focused environments.\nsiroubjoseph@gmail.com · LinkedIn · GitHub"
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Joseph Siroub",
+    "section": "",
+    "text": "Study marketing strategy, consumer engagement, brand awareness, and business operations.\nFollow sports media, athlete branding, social media trends, and fan engagement.\nBring a competitive sports background shaped by teamwork, discipline, and performing under pressure.\n\nRead about me\n\n\n\n\nUse GA4, BigQuery concepts, Looker Studio, R, and tidyverse workflows to analyze behavior and communicate insights.\nSupport real workplace operations through documentation, payroll, compliance processes, and team coordination.\nBuild organized reports that connect data to decisions.\n\nView skills"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Joseph Siroub",
+    "section": "",
+    "text": "I am currently building toward a career where marketing, communication, sports, and relationship management come together. My academic path has given me a foundation in marketing management, while my project work has helped me practice analytics and reporting. My professional experience has strengthened my organization, accuracy, and ability to communicate across teams.\nI am especially interested in roles connected to sports media, athlete representation, brand partnerships, agency work, and fan engagement strategy."
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Joseph Siroub",
+    "section": "",
+    "text": "Analyzed a conversion path from homepage views to purchases, identified the largest drop-off point, and recommended improvements for homepage engagement.\nView project\n\n\n\nStudied how cloud analytics and dashboards can move from raw data to visual communication for marketing and customer engagement decisions.\nView project\n\n\n\nUsed tidyverse tools to clean, reshape, summarize, and visualize datasets while building a foundation for practical reporting.\nView project"
+  },
+  {
+    "objectID": "index.html#recognition-evidence",
+    "href": "index.html#recognition-evidence",
+    "title": "Joseph Siroub",
+    "section": "",
+    "text": "Google Analytics certification — reported score of 88.\nAssociate of Science in Marketing Management — Mt. San Antonio College.\nBachelor of Science in Marketing Management in progress — California State Polytechnic University, Pomona.\nOperations & Compliance Support experience — Integrated Demolition & Remediation."
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Joseph Siroub",
+    "section": "",
+    "text": "I am interested in opportunities where I can contribute marketing, communication, analytics, and operations skills, especially in sports-focused environments.\nsiroubjoseph@gmail.com · LinkedIn · GitHub"
+  },
+  {
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Skills",
+    "section": "",
+    "text": "My skillset combines marketing management, business operations, analytics, communication, and a strong interest in sports media and brand engagement. I am continuing to build technical skills while also developing the professional habits needed in fast-paced business and sports environments."
+  },
+  {
+    "objectID": "skills.html#skill-overview",
+    "href": "skills.html#skill-overview",
+    "title": "Skills",
+    "section": "",
+    "text": "My skillset combines marketing management, business operations, analytics, communication, and a strong interest in sports media and brand engagement. I am continuing to build technical skills while also developing the professional habits needed in fast-paced business and sports environments."
+  },
+  {
+    "objectID": "skills.html#marketing-business-skills",
+    "href": "skills.html#marketing-business-skills",
+    "title": "Skills",
+    "section": "Marketing & Business Skills",
+    "text": "Marketing & Business Skills\n\nMarketing fundamentals and brand awareness\nConsumer engagement and communication\nSocial media trend analysis\nSports media and sports marketing interest\nCustomer engagement planning\nBusiness operations and organizational processes\nAdministrative coordination and operations support\nTeam collaboration and project coordination\nProfessional communication across departments"
+  },
+  {
+    "objectID": "skills.html#analytics-platforms",
+    "href": "skills.html#analytics-platforms",
+    "title": "Skills",
+    "section": "Analytics Platforms",
+    "text": "Analytics Platforms\nI have completed coursework and projects using Google Analytics 4 concepts and the GA4 demo account. My analytics platform experience includes:\n\nGA4 certification concepts\nEvent, audience, dimension, and report interpretation\nUser acquisition and traffic acquisition reporting\nFunnel exploration\nPath and drop-off analysis\nAudience activation concepts\nKPI selection for customer engagement\nBigQuery export concepts\nLooker Studio dashboard communication"
+  },
+  {
+    "objectID": "skills.html#r-data-analytics",
+    "href": "skills.html#r-data-analytics",
+    "title": "Skills",
+    "section": "R & Data Analytics",
+    "text": "R & Data Analytics\nMy R coursework has helped me practice cleaning, transforming, analyzing, and visualizing data. Tools and concepts include:\n\nR\nTidyverse workflows\ndplyr filtering, grouping, summarizing, and mutating\ntidyr reshaping with wide and long formats\nggplot2 visualization\nlubridate date handling\nforcats factor handling\njanitor data cleaning\nnaniar missing value workflows\ngt and gtsummary table presentation\npurrr and functional programming"
+  },
+  {
+    "objectID": "skills.html#data-preparation",
+    "href": "skills.html#data-preparation",
+    "title": "Skills",
+    "section": "Data Preparation",
+    "text": "Data Preparation\nMy import/export coursework covers the practical movement of data between files, tools, and reports:\n\nCSV import and cleaning\nExcel import and export\nClipboard data import\nMissing value standardization\nWeb scraping with rvest\nLabelled SPSS data handling\nExporting charts to image and PDF formats\nCombining external datasets for analysis"
+  },
+  {
+    "objectID": "skills.html#operations-administrative-skills",
+    "href": "skills.html#operations-administrative-skills",
+    "title": "Skills",
+    "section": "Operations & Administrative Skills",
+    "text": "Operations & Administrative Skills\nMy professional experience has strengthened skills that are valuable in business, marketing, and sports operations:\n\nPayroll processing\nCompliance documentation\nI-9 and W-4 document handling\nHigh-volume data entry\nConfidential records management\nDocumentation organization\nMicrosoft Excel\nMicrosoft Office Suite\nClient and team communication\nTime management and multitasking"
+  },
+  {
+    "objectID": "skills.html#professional-strengths",
+    "href": "skills.html#professional-strengths",
+    "title": "Skills",
+    "section": "Professional Strengths",
+    "text": "Professional Strengths\n\nStrong attention to detail and accuracy\nReliable and organized work ethic\nAnalytical thinking and problem-solving\nAdaptability in fast-paced environments\nCross-functional communication\nCollaborative, team-oriented mindset\nAbility to balance academic and professional responsibilities"
+  },
+  {
+    "objectID": "strategic-marketing.html",
+    "href": "strategic-marketing.html",
+    "title": "GA4 & Dashboards",
+    "section": "",
+    "text": "I passed the Google Analytics certification with a reported score of 88. The certification work strengthened my understanding of GA4 events, audiences, dimensions, reporting areas, acquisition reports, explorations, and integrations.\nThe most challenging areas for me were BigQuery exports, report customization, and choosing the right exploration method for the question being asked. Those topics pushed me to think beyond basic reporting and focus more on how analytics tools support real marketing decisions."
+  },
+  {
+    "objectID": "strategic-marketing.html#ga4-certification",
+    "href": "strategic-marketing.html#ga4-certification",
+    "title": "GA4 & Dashboards",
+    "section": "",
+    "text": "I passed the Google Analytics certification with a reported score of 88. The certification work strengthened my understanding of GA4 events, audiences, dimensions, reporting areas, acquisition reports, explorations, and integrations.\nThe most challenging areas for me were BigQuery exports, report customization, and choosing the right exploration method for the question being asked. Those topics pushed me to think beyond basic reporting and focus more on how analytics tools support real marketing decisions."
+  },
+  {
+    "objectID": "strategic-marketing.html#customer-engagement-plan-connection",
+    "href": "strategic-marketing.html#customer-engagement-plan-connection",
+    "title": "GA4 & Dashboards",
+    "section": "Customer Engagement Plan Connection",
+    "text": "Customer Engagement Plan Connection\nMy GA4 work connects to a Customer Engagement Plan focused on real estate and property-market engagement. The main goal was to understand how users move through a digital experience, where they drop off, and which traffic or device categories may be more effective for generating leads.\nI used GA4 as a decision-support tool for:\n\nTracking homepage visits, product or property browsing, and purchase or lead actions.\nComparing web and mobile traffic in lead acquisition reports.\nUsing acquisition reports to identify stronger channels.\nApplying funnel exploration to find conversion drop-offs.\nThinking about where BigQuery could extend GA4 analysis through deeper SQL-based work."
+  },
+  {
+    "objectID": "strategic-marketing.html#reporting-focus",
+    "href": "strategic-marketing.html#reporting-focus",
+    "title": "GA4 & Dashboards",
+    "section": "Reporting Focus",
+    "text": "Reporting Focus\nOne of the biggest lessons I took from GA4 is that reports need to match the business question. User Acquisition and Traffic Acquisition reports are similar, but they answer different questions. User Acquisition focuses on how users first arrive, while Traffic Acquisition focuses on session-based sources.\nFor the Customer Engagement Plan, I selected lead acquisition by traffic type as a useful KPI. Comparing web and mobile traffic can help decide whether a marketing team should focus more on desktop experiences, mobile experiences, or both."
+  },
+  {
+    "objectID": "strategic-marketing.html#funnel-exploration-summary",
+    "href": "strategic-marketing.html#funnel-exploration-summary",
+    "title": "GA4 & Dashboards",
+    "section": "Funnel Exploration Summary",
+    "text": "Funnel Exploration Summary\nThe funnel analysis investigated the path from homepage view to purchase:\n\n\n38,514 Homepage views\n\n\n335 Users moved to add to cart\n\n\n124 Users continued to add payment\n\n\n83 Final purchasers\n\n\nThe biggest issue was the early drop-off from homepage views to add-to-cart behavior. Only 335 of 38,514 homepage visitors moved forward, which showed that the homepage experience needed closer review."
+  },
+  {
+    "objectID": "strategic-marketing.html#recommended-next-steps",
+    "href": "strategic-marketing.html#recommended-next-steps",
+    "title": "GA4 & Dashboards",
+    "section": "Recommended Next Steps",
+    "text": "Recommended Next Steps\n\nSegment the funnel by traffic source and device type.\nReview behavior flow to understand why users abandon the homepage.\nImprove homepage product visibility and calls-to-action.\nRun A/B tests on homepage layout or featured products.\nUse BigQuery exports for larger trend analysis that is difficult to complete inside the GA4 interface alone."
+  },
+  {
+    "objectID": "strategic-marketing.html#dashboard-communication",
+    "href": "strategic-marketing.html#dashboard-communication",
+    "title": "GA4 & Dashboards",
+    "section": "Dashboard Communication",
+    "text": "Dashboard Communication\nMy Looker Studio work helped me understand that dashboards should simplify information rather than overwhelm the viewer. A useful dashboard should highlight the most important metrics, provide enough context for interpretation, and help the audience understand what action should come next.\nThis lesson connects directly to my sports marketing interests. In sports media, fan engagement, ticketing, sponsorship, and athlete branding, dashboards can help teams and agencies understand what content or campaigns are actually connecting with an audience."
+  },
+  {
+    "objectID": "strategic-marketing.html#bigquery-and-looker-studio",
+    "href": "strategic-marketing.html#bigquery-and-looker-studio",
+    "title": "GA4 & Dashboards",
+    "section": "BigQuery and Looker Studio",
+    "text": "BigQuery and Looker Studio\nThe BigQuery and Looker Studio work showed me how a full analytics workflow can move from querying data to presenting insights. BigQuery supports deeper analysis with large datasets, while Looker Studio helps communicate findings visually.\nIn a sports or marketing environment, that kind of workflow could be used to analyze campaign engagement, audience behavior, social media performance, ticketing interest, sponsorship activations, or regional fan trends."
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "Integrated Demolition & Remediation\nJuly 2025 - Present\nI provide operational and administrative support in a fast-paced professional environment that requires accuracy, communication, compliance awareness, and strong organization. I work with estimators, project managers, field personnel, and operations leadership to support documentation, payroll, compliance forms, data entry, and coordination across projects."
+  },
+  {
+    "objectID": "experience.html#professional-experience",
+    "href": "experience.html#professional-experience",
+    "title": "Experience",
+    "section": "",
+    "text": "Integrated Demolition & Remediation\nJuly 2025 - Present\nI provide operational and administrative support in a fast-paced professional environment that requires accuracy, communication, compliance awareness, and strong organization. I work with estimators, project managers, field personnel, and operations leadership to support documentation, payroll, compliance forms, data entry, and coordination across projects."
+  },
+  {
+    "objectID": "experience.html#responsibilities",
+    "href": "experience.html#responsibilities",
+    "title": "Experience",
+    "section": "Responsibilities",
+    "text": "Responsibilities\n\nSupport project managers, estimators, and operational leadership with administrative coordination and documentation management.\nProcess payroll with attention to labor compliance standards, reporting accuracy, and organizational procedures.\nPrepare, review, and maintain employment documentation including I-9 and W-4 forms.\nPerform high-volume data entry while maintaining accuracy, consistency, and confidentiality.\nCommunicate with supervisors, field personnel, and clients to support operational alignment.\nTravel to active job sites when needed to provide administrative and logistical support.\nMaintain structured filing and documentation systems.\nHelp cross-functional teams process and communicate important operational information efficiently."
+  },
+  {
+    "objectID": "experience.html#skills-strengthened-through-experience",
+    "href": "experience.html#skills-strengthened-through-experience",
+    "title": "Experience",
+    "section": "Skills Strengthened Through Experience",
+    "text": "Skills Strengthened Through Experience\nThis role has strengthened many of the same qualities I want to bring into marketing and sports business:\n\nAttention to detail\nAccurate data handling\nConfidential documentation management\nCross-functional communication\nTime management\nMultitasking\nProblem-solving under pressure\nProfessional reliability"
+  },
+  {
+    "objectID": "experience.html#connection-to-marketing-and-analytics",
+    "href": "experience.html#connection-to-marketing-and-analytics",
+    "title": "Experience",
+    "section": "Connection to Marketing and Analytics",
+    "text": "Connection to Marketing and Analytics\nMy operations experience gives me a practical perspective on business. In real workplaces, information is tied to people, deadlines, compliance requirements, documentation, and decisions. That experience helps me approach marketing and analytics with a grounded mindset: reports should be accurate, organized, understandable, and useful to the people who rely on them.\nThat perspective carries into my GA4 and R projects. Whether I am analyzing a funnel, cleaning a dataset, or thinking through a dashboard, the goal is to make information easier to trust and easier to act on."
+  },
+  {
+    "objectID": "experience.html#additional-qualifications",
+    "href": "experience.html#additional-qualifications",
+    "title": "Experience",
+    "section": "Additional Qualifications",
+    "text": "Additional Qualifications\n\nCompetitive Sports Background\nMy competitive sports background has helped me develop discipline, accountability, teamwork, leadership, resilience, and the ability to perform under pressure. Those qualities are a major reason I am interested in building a career in the sports industry.\n\n\nAcademic and Professional Balance\nI have balanced academic responsibilities with professional work commitments, which has helped me strengthen my reliability, time management, and organization.\n\n\nAdaptability and Work Ethic\nI am comfortable in deadline-driven environments that require flexibility, strong attention to detail, and the ability to manage multiple priorities professionally."
+  },
+  {
+    "objectID": "listings/01-ga4-funnel-exploration.html",
+    "href": "listings/01-ga4-funnel-exploration.html",
+    "title": "GA4 Funnel Exploration",
+    "section": "",
+    "text": "I used the Google Analytics 4 demo account to understand how users moved through a conversion funnel from homepage view to purchase.\nMy purpose was to identify which stage of the journey created the greatest loss of users and then translate that finding into a practical recommendation for improving customer engagement."
+  },
+  {
+    "objectID": "listings/01-ga4-funnel-exploration.html#overview",
+    "href": "listings/01-ga4-funnel-exploration.html#overview",
+    "title": "GA4 Funnel Exploration",
+    "section": "",
+    "text": "I used the Google Analytics 4 demo account to understand how users moved through a conversion funnel from homepage view to purchase.\nMy purpose was to identify which stage of the journey created the greatest loss of users and then translate that finding into a practical recommendation for improving customer engagement."
+  },
+  {
+    "objectID": "listings/01-ga4-funnel-exploration.html#key-findings",
+    "href": "listings/01-ga4-funnel-exploration.html#key-findings",
+    "title": "GA4 Funnel Exploration",
+    "section": "Key Findings",
+    "text": "Key Findings\n\n38,514 homepage views began the funnel.\n335 users moved to Add to Cart, a conversion rate of about 0.87%.\n124 users continued to Add Payment.\n83 users completed purchase.\nThe largest performance issue appeared at the homepage-to-add-to-cart stage."
+  },
+  {
+    "objectID": "listings/01-ga4-funnel-exploration.html#recommendation",
+    "href": "listings/01-ga4-funnel-exploration.html#recommendation",
+    "title": "GA4 Funnel Exploration",
+    "section": "Recommendation",
+    "text": "Recommendation\nImprove homepage product visibility and calls-to-action, then test changes through A/B experiments. The next investigation should segment funnel performance by device type and traffic source."
+  },
+  {
+    "objectID": "listings/01-ga4-funnel-exploration.html#professional-takeaway",
+    "href": "listings/01-ga4-funnel-exploration.html#professional-takeaway",
+    "title": "GA4 Funnel Exploration",
+    "section": "Professional Takeaway",
+    "text": "Professional Takeaway\nThis project helped me see how GA4 can move beyond passive reporting. The funnel gives a clear behavioral signal, and the recommendation connects directly to user experience, homepage messaging, and conversion optimization."
+  },
+  {
+    "objectID": "listings/03-r-data-wrangling.html",
+    "href": "listings/03-r-data-wrangling.html",
+    "title": "R Data Wrangling with Tidyverse",
+    "section": "",
+    "text": "I applied tidyverse workflows to clean, reshape, summarize, and visualize datasets such as airquality, relig_income, us_rent_income, and nycflights13.\nThe project strengthened one of the foundations of practical analysis: data must be structured correctly before it can produce reliable charts, tables, or recommendations."
+  },
+  {
+    "objectID": "listings/03-r-data-wrangling.html#overview",
+    "href": "listings/03-r-data-wrangling.html#overview",
+    "title": "R Data Wrangling with Tidyverse",
+    "section": "",
+    "text": "I applied tidyverse workflows to clean, reshape, summarize, and visualize datasets such as airquality, relig_income, us_rent_income, and nycflights13.\nThe project strengthened one of the foundations of practical analysis: data must be structured correctly before it can produce reliable charts, tables, or recommendations."
+  },
+  {
+    "objectID": "listings/03-r-data-wrangling.html#skills-demonstrated",
+    "href": "listings/03-r-data-wrangling.html#skills-demonstrated",
+    "title": "R Data Wrangling with Tidyverse",
+    "section": "Skills Demonstrated",
+    "text": "Skills Demonstrated\n\nConverting between data frames and tibbles.\nFiltering, grouping, summarizing, and joining data.\nPivoting between wide and long formats.\nHandling missing values.\nBuilding visualizations with ggplot2."
+  },
+  {
+    "objectID": "listings/03-r-data-wrangling.html#insight",
+    "href": "listings/03-r-data-wrangling.html#insight",
+    "title": "R Data Wrangling with Tidyverse",
+    "section": "Insight",
+    "text": "Insight\nThis work showed me how tidy data principles make analysis easier to communicate, especially when transforming raw datasets into charts and tables that answer a specific business question."
+  },
+  {
+    "objectID": "listings/03-r-data-wrangling.html#professional-takeaway",
+    "href": "listings/03-r-data-wrangling.html#professional-takeaway",
+    "title": "R Data Wrangling with Tidyverse",
+    "section": "Professional Takeaway",
+    "text": "Professional Takeaway\nThe most transferable skill is the ability to inspect a dataset, identify whether it is wide or long, reshape it when needed, and then build a visual explanation from the cleaned structure."
+  },
+  {
+    "objectID": "listings/05-functional-programming-r.html",
+    "href": "listings/05-functional-programming-r.html",
+    "title": "Functional Programming in R",
+    "section": "",
+    "text": "I practiced control flow, custom functions, and function mapping in R to reduce repetition and build more reusable analysis workflows.\nThe work connected basic programming concepts to analytics productivity. When analysis tasks repeat across years, countries, groups, or variables, functions make the work easier to scale and easier to check."
+  },
+  {
+    "objectID": "listings/05-functional-programming-r.html#overview",
+    "href": "listings/05-functional-programming-r.html#overview",
+    "title": "Functional Programming in R",
+    "section": "",
+    "text": "I practiced control flow, custom functions, and function mapping in R to reduce repetition and build more reusable analysis workflows.\nThe work connected basic programming concepts to analytics productivity. When analysis tasks repeat across years, countries, groups, or variables, functions make the work easier to scale and easier to check."
+  },
+  {
+    "objectID": "listings/05-functional-programming-r.html#skills-demonstrated",
+    "href": "listings/05-functional-programming-r.html#skills-demonstrated",
+    "title": "Functional Programming in R",
+    "section": "Skills Demonstrated",
+    "text": "Skills Demonstrated\n\nWriting if and else if logic.\nCreating loops and custom functions.\nUsing apply, lapply, and sapply.\nUsing purrr::map for repeated analysis.\nBuilding reusable plotting functions."
+  },
+  {
+    "objectID": "listings/05-functional-programming-r.html#reflection",
+    "href": "listings/05-functional-programming-r.html#reflection",
+    "title": "Functional Programming in R",
+    "section": "Reflection",
+    "text": "Reflection\nThe main lesson was that functions help turn repeated code into a clear workflow. This supports scalable reporting, automated dashboards, and cleaner analysis projects.\nFunctional programming also supports Quarto reporting because reusable functions can power repeated charts, parameterized reports, and automated summaries."
+  }
+]

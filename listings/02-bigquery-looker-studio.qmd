@@ -1,0 +1,25 @@
+---
+title: "BigQuery and Looker Studio Workflow"
+image: "../images/hero.jpeg"
+categories: [BigQuery, Looker Studio, Dashboarding, Cloud Analytics]
+index: 2
+---
+
+## Overview
+
+I summarized a full analytics workflow using BigQuery for data mining and Looker Studio for interactive dashboard communication.
+
+The work helped me understand how cloud-based analytics tools can support larger and more flexible analysis than a standard interface can provide.
+
+## Skills Demonstrated
+
+- Querying large datasets with SQL concepts.
+- Filtering, grouping, aggregating, and joining data.
+- Connecting analysis outputs to dashboard visuals.
+- Selecting charts that communicate trends clearly.
+
+## Business Use
+
+For a real estate customer engagement plan, BigQuery can support deeper analysis of housing demand, regional price movement, and long-term market trends that are difficult to explore in the GA4 interface alone.
+
+Looker Studio provides a presentation layer where those findings can be organized into charts, filters, and dashboards for a nontechnical audience. That same workflow could also apply to sports marketing, where teams and agencies need to understand fan behavior, campaign performance, and audience engagement.

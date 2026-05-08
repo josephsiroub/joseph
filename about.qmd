@@ -1,0 +1,32 @@
+---
+title: "About"
+toc: true
+---
+
+## About Me
+
+I am currently a student at California State Polytechnic University, Pomona, where I am majoring in Marketing Management. I graduate in one year, and I am focused on building a career that allows me to combine marketing, communication, sports, media, and business strategy.
+
+Before transferring to Cal Poly Pomona, I attended Mt. San Antonio College and earned my Associate of Science in Marketing Management. That path helped me build a strong foundation in marketing fundamentals, business communication, customer engagement, and professional organization.
+
+## Career Direction
+
+My career aspiration is to work in the sports world. I am especially interested in roles where I can use marketing skills in sports media, athlete representation, brand engagement, or agency work. I want to be involved in the business side of sports, helping athletes, teams, brands, or media organizations connect with audiences in a meaningful and professional way.
+
+Sports have always shaped the way I approach work. A competitive sports background has taught me discipline, accountability, teamwork, leadership, and how to perform under pressure. Those qualities are important to me because the sports industry moves quickly and depends on trust, preparation, communication, and results.
+
+## Academic and Professional Background
+
+My academic work has focused on marketing strategy, consumer behavior, business operations, communication, analytics, and organizational management. Through coursework and projects, I have gained experience with Google Analytics 4, BigQuery, Looker Studio, R programming, dashboard reporting, data wrangling, and customer engagement analysis.
+
+Professionally, I have hands-on experience in operations and compliance support. In my current role at Integrated Demolition & Remediation, I support administrative coordination, payroll processing, compliance documentation, data entry, project communication, and job-site operational needs. This experience has made me more organized, detail-oriented, and comfortable working with different teams in fast-paced environments.
+
+## What I Bring
+
+I bring a mix of marketing knowledge, operational experience, analytical curiosity, and a team-first mindset. I am comfortable handling detailed work, communicating across departments, learning new tools, and staying reliable when responsibilities need to be managed accurately.
+
+The strongest part of my professional identity is that I care about both the strategy and the execution. I want to understand the big-picture marketing goal, but I also respect the detailed work required to make that goal happen.
+
+## Portfolio Focus
+
+This portfolio highlights the skills I am building as I move toward a career in sports marketing and business. It includes marketing analytics work, GA4 certification evidence, dashboard concepts, R analytics projects, and professional experience that shows my ability to stay organized, communicate clearly, and support business operations.

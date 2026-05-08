@@ -1,0 +1,21 @@
+---
+title: "Accomplishments"
+listing:
+  contents: listings
+  type: grid
+  categories: true
+  sort:
+    - "index"
+toc: false
+---
+
+This portfolio brings together Joseph Siroub's strongest analytics work from GA4 certification exercises, R programming assignments, BigQuery and Looker Studio training, and reflection-based reporting.
+
+The projects are organized around applied skills: measuring user behavior, cleaning and transforming data, building visual explanations, and turning results into recommendations.
+
+## What You Will Find
+
+- **GA4 measurement and funnels:** Explorations, audiences, acquisition reports, and certification reflections.
+- **Cloud analytics:** BigQuery analysis concepts and Looker Studio dashboard design.
+- **R analytics:** Tidyverse data wrangling, plotting, importing/exporting, and functional programming.
+- **Client-ready communication:** Clear summaries, business recommendations, and next-step analysis plans.

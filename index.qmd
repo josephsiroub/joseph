@@ -1,0 +1,110 @@
+---
+title: "Joseph Siroub"
+description: "Marketing management, sports marketing, analytics, and business operations portfolio"
+toc: false
+---
+
+::: {.home-wrap}
+::: {.profile-hero}
+::: {.profile-intro}
+# Joseph Siroub
+
+**Marketing Management student. Sports business and analytics focused.**
+
+I am a Marketing Management major at Cal Poly Pomona with an Associate of Science in Marketing Management from Mt. San Antonio College. I graduate in one year, and my goal is to work in the sports world through sports media, athlete representation, brand engagement, or agency work.
+
+My background combines marketing coursework, GA4 and R analytics projects, and hands-on operations experience in payroll, compliance documentation, data entry, and cross-functional coordination.
+
+::: {.cta-row}
+[About](about.qmd){.btn-portfolio}
+[Projects](projects.qmd){.btn-portfolio .btn-secondary}
+[Resume](resume.qmd){.btn-portfolio .btn-secondary}
+:::
+:::
+
+::: {.profile-photo}
+![](images/joseph-siroub-headshot.jpeg){fig-alt="Portrait of Joseph Siroub"}
+:::
+:::
+
+---
+
+## What I Do
+
+::: {.two-col}
+::: {.info-block}
+### Marketing & Sports Business
+
+- Study marketing strategy, consumer engagement, brand awareness, and business operations.
+- Follow sports media, athlete branding, social media trends, and fan engagement.
+- Bring a competitive sports background shaped by teamwork, discipline, and performing under pressure.
+
+[Read about me](about.qmd)
+:::
+
+::: {.info-block}
+### Analytics & Operations
+
+- Use GA4, BigQuery concepts, Looker Studio, R, and tidyverse workflows to analyze behavior and communicate insights.
+- Support real workplace operations through documentation, payroll, compliance processes, and team coordination.
+- Build organized reports that connect data to decisions.
+
+[View skills](skills.qmd)
+:::
+:::
+
+---
+
+## About
+
+I am currently building toward a career where marketing, communication, sports, and relationship management come together. My academic path has given me a foundation in marketing management, while my project work has helped me practice analytics and reporting. My professional experience has strengthened my organization, accuracy, and ability to communicate across teams.
+
+I am especially interested in roles connected to sports media, athlete representation, brand partnerships, agency work, and fan engagement strategy.
+
+---
+
+## Selected Work
+
+::: {.selected-work}
+::: {.work-item}
+### GA4 Funnel Exploration
+
+Analyzed a conversion path from homepage views to purchases, identified the largest drop-off point, and recommended improvements for homepage engagement.
+
+[View project](listings/01-ga4-funnel-exploration.qmd)
+:::
+
+::: {.work-item}
+### BigQuery + Looker Studio
+
+Studied how cloud analytics and dashboards can move from raw data to visual communication for marketing and customer engagement decisions.
+
+[View project](listings/02-bigquery-looker-studio.qmd)
+:::
+
+::: {.work-item}
+### R Data Wrangling
+
+Used tidyverse tools to clean, reshape, summarize, and visualize datasets while building a foundation for practical reporting.
+
+[View project](listings/03-r-data-wrangling.qmd)
+:::
+:::
+
+---
+
+## Recognition & Evidence
+
+- **Google Analytics certification** — reported score of 88.
+- **Associate of Science in Marketing Management** — Mt. San Antonio College.
+- **Bachelor of Science in Marketing Management in progress** — California State Polytechnic University, Pomona.
+- **Operations & Compliance Support experience** — Integrated Demolition & Remediation.
+
+---
+
+## Let's Connect
+
+I am interested in opportunities where I can contribute marketing, communication, analytics, and operations skills, especially in sports-focused environments.
+
+[siroubjoseph@gmail.com](mailto:siroubjoseph@gmail.com) · [LinkedIn](https://www.linkedin.com/in/joseph-siroub-2a6360399/) · [GitHub](https://github.com/josephsiroub)
+:::

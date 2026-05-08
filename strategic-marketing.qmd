@@ -1,0 +1,76 @@
+---
+title: "GA4 & Dashboards"
+toc: true
+---
+
+## GA4 Certification
+
+I passed the Google Analytics certification with a reported score of **88**. The certification work strengthened my understanding of GA4 events, audiences, dimensions, reporting areas, acquisition reports, explorations, and integrations.
+
+The most challenging areas for me were BigQuery exports, report customization, and choosing the right exploration method for the question being asked. Those topics pushed me to think beyond basic reporting and focus more on how analytics tools support real marketing decisions.
+
+## Customer Engagement Plan Connection
+
+My GA4 work connects to a Customer Engagement Plan focused on real estate and property-market engagement. The main goal was to understand how users move through a digital experience, where they drop off, and which traffic or device categories may be more effective for generating leads.
+
+I used GA4 as a decision-support tool for:
+
+- Tracking homepage visits, product or property browsing, and purchase or lead actions.
+- Comparing web and mobile traffic in lead acquisition reports.
+- Using acquisition reports to identify stronger channels.
+- Applying funnel exploration to find conversion drop-offs.
+- Thinking about where BigQuery could extend GA4 analysis through deeper SQL-based work.
+
+## Reporting Focus
+
+One of the biggest lessons I took from GA4 is that reports need to match the business question. User Acquisition and Traffic Acquisition reports are similar, but they answer different questions. User Acquisition focuses on how users first arrive, while Traffic Acquisition focuses on session-based sources.
+
+For the Customer Engagement Plan, I selected lead acquisition by traffic type as a useful KPI. Comparing web and mobile traffic can help decide whether a marketing team should focus more on desktop experiences, mobile experiences, or both.
+
+## Funnel Exploration Summary
+
+The funnel analysis investigated the path from homepage view to purchase:
+
+::: {.metric-row}
+::: {.metric}
+**38,514**
+Homepage views
+:::
+
+::: {.metric}
+**335**
+Users moved to add to cart
+:::
+
+::: {.metric}
+**124**
+Users continued to add payment
+:::
+
+::: {.metric}
+**83**
+Final purchasers
+:::
+:::
+
+The biggest issue was the early drop-off from homepage views to add-to-cart behavior. Only 335 of 38,514 homepage visitors moved forward, which showed that the homepage experience needed closer review.
+
+## Recommended Next Steps
+
+- Segment the funnel by traffic source and device type.
+- Review behavior flow to understand why users abandon the homepage.
+- Improve homepage product visibility and calls-to-action.
+- Run A/B tests on homepage layout or featured products.
+- Use BigQuery exports for larger trend analysis that is difficult to complete inside the GA4 interface alone.
+
+## Dashboard Communication
+
+My Looker Studio work helped me understand that dashboards should simplify information rather than overwhelm the viewer. A useful dashboard should highlight the most important metrics, provide enough context for interpretation, and help the audience understand what action should come next.
+
+This lesson connects directly to my sports marketing interests. In sports media, fan engagement, ticketing, sponsorship, and athlete branding, dashboards can help teams and agencies understand what content or campaigns are actually connecting with an audience.
+
+## BigQuery and Looker Studio
+
+The BigQuery and Looker Studio work showed me how a full analytics workflow can move from querying data to presenting insights. BigQuery supports deeper analysis with large datasets, while Looker Studio helps communicate findings visually.
+
+In a sports or marketing environment, that kind of workflow could be used to analyze campaign engagement, audience behavior, social media performance, ticketing interest, sponsorship activations, or regional fan trends.

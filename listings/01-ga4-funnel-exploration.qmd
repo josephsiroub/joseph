@@ -1,0 +1,28 @@
+---
+title: "GA4 Funnel Exploration"
+image: "../images/hero.jpeg"
+categories: [GA4, Funnel Analysis, Customer Engagement, Conversion Optimization]
+index: 1
+---
+
+## Overview
+
+I used the Google Analytics 4 demo account to understand how users moved through a conversion funnel from homepage view to purchase.
+
+My purpose was to identify which stage of the journey created the greatest loss of users and then translate that finding into a practical recommendation for improving customer engagement.
+
+## Key Findings
+
+- 38,514 homepage views began the funnel.
+- 335 users moved to Add to Cart, a conversion rate of about 0.87%.
+- 124 users continued to Add Payment.
+- 83 users completed purchase.
+- The largest performance issue appeared at the homepage-to-add-to-cart stage.
+
+## Recommendation
+
+Improve homepage product visibility and calls-to-action, then test changes through A/B experiments. The next investigation should segment funnel performance by device type and traffic source.
+
+## Professional Takeaway
+
+This project helped me see how GA4 can move beyond passive reporting. The funnel gives a clear behavioral signal, and the recommendation connects directly to user experience, homepage messaging, and conversion optimization.

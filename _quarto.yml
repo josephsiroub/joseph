@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "index.qmd"
+    - "about.qmd"
+    - "skills.qmd"
+    - "projects.qmd"
+    - "strategic-marketing.qmd"
+    - "r-analytics.qmd"
+    - "experience.qmd"
+    - "resume.qmd"
+    - "listings/*.qmd"
+
+website:
+  title: "Joseph Siroub"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Skills"
+        href: skills.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "GA4 & Dashboards"
+        href: strategic-marketing.qmd
+      - text: "R Analytics"
+        href: r-analytics.qmd
+      - text: "Experience"
+        href: experience.qmd
+      - text: "Resume"
+        href: resume.qmd
+    right:
+      - icon: envelope
+        href: mailto:siroubjoseph@gmail.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/joseph-siroub-2a6360399/
+      - icon: github
+        href: https://github.com/josephsiroub
+
+format:
+  html:
+    theme: [flatly, theme.scss]
+    toc: true
+    page-layout: full
+    smooth-scroll: true

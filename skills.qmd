@@ -1,0 +1,88 @@
+---
+title: "Skills"
+toc: true
+---
+
+## Skill Overview
+
+My skillset combines marketing management, business operations, analytics, communication, and a strong interest in sports media and brand engagement. I am continuing to build technical skills while also developing the professional habits needed in fast-paced business and sports environments.
+
+## Marketing & Business Skills
+
+- Marketing fundamentals and brand awareness
+- Consumer engagement and communication
+- Social media trend analysis
+- Sports media and sports marketing interest
+- Customer engagement planning
+- Business operations and organizational processes
+- Administrative coordination and operations support
+- Team collaboration and project coordination
+- Professional communication across departments
+
+## Analytics Platforms
+
+I have completed coursework and projects using Google Analytics 4 concepts and the GA4 demo account. My analytics platform experience includes:
+
+- GA4 certification concepts
+- Event, audience, dimension, and report interpretation
+- User acquisition and traffic acquisition reporting
+- Funnel exploration
+- Path and drop-off analysis
+- Audience activation concepts
+- KPI selection for customer engagement
+- BigQuery export concepts
+- Looker Studio dashboard communication
+
+## R & Data Analytics
+
+My R coursework has helped me practice cleaning, transforming, analyzing, and visualizing data. Tools and concepts include:
+
+- R
+- Tidyverse workflows
+- `dplyr` filtering, grouping, summarizing, and mutating
+- `tidyr` reshaping with wide and long formats
+- `ggplot2` visualization
+- `lubridate` date handling
+- `forcats` factor handling
+- `janitor` data cleaning
+- `naniar` missing value workflows
+- `gt` and `gtsummary` table presentation
+- `purrr` and functional programming
+
+## Data Preparation
+
+My import/export coursework covers the practical movement of data between files, tools, and reports:
+
+- CSV import and cleaning
+- Excel import and export
+- Clipboard data import
+- Missing value standardization
+- Web scraping with `rvest`
+- Labelled SPSS data handling
+- Exporting charts to image and PDF formats
+- Combining external datasets for analysis
+
+## Operations & Administrative Skills
+
+My professional experience has strengthened skills that are valuable in business, marketing, and sports operations:
+
+- Payroll processing
+- Compliance documentation
+- I-9 and W-4 document handling
+- High-volume data entry
+- Confidential records management
+- Documentation organization
+- Microsoft Excel
+- Microsoft Office Suite
+- Client and team communication
+- Time management and multitasking
+
+## Professional Strengths
+
+- Strong attention to detail and accuracy
+- Reliable and organized work ethic
+- Analytical thinking and problem-solving
+- Adaptability in fast-paced environments
+- Cross-functional communication
+- Collaborative, team-oriented mindset
+- Ability to balance academic and professional responsibilities

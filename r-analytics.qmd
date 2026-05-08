@@ -1,0 +1,66 @@
+---
+title: "R Analytics"
+toc: true
+---
+
+## R Analytics Overview
+
+My R analytics work shows my development from basic data manipulation toward more reusable and report-ready workflows. The assignments cover data wrangling, visualization, import/export, missing values, labelled data, web scraping, and functional programming.
+
+## Data Wrangling with Tidyverse
+
+The tidyverse work includes practice with `airquality`, `relig_income`, `us_rent_income`, and `nycflights13`. Through these exercises, I practiced common data-analysis tasks:
+
+- Converting between data frames and tibbles.
+- Filtering records by condition.
+- Grouping and summarizing values.
+- Reshaping datasets from wide to long format.
+- Reshaping datasets from long to wide format.
+- Creating `ggplot2` visualizations.
+- Interpreting whether a dataset is structured appropriately for a chart.
+
+The main lesson for me is that analysis depends on structure. Before a chart or dashboard can be useful, the data has to be organized in a way that matches the question.
+
+## Missing Values and Data Quality
+
+I practiced checking for missing values, summarizing missingness, replacing missing values, and standardizing placeholders such as `N/A`, `--`, and numeric missing-value codes.
+
+This is an important analytics habit because decisions should not be based on data that has not been reviewed for quality. Before producing a chart or recommendation, I want to understand whether the data is complete, consistent, and reliable.
+
+## Data Import, Export, and Web Scraping
+
+My import/export work includes CSV files, Excel files, clipboard data, SPSS labelled data, and web-scraped data from an archived IMDb page. I also practiced exporting cleaned datasets and saving plots in image and PDF formats.
+
+These skills matter because real workplace data often comes from different systems and formats. Being able to import, clean, standardize, and export data is useful in marketing, operations, and sports business environments.
+
+## Visualization and Reporting
+
+The R work includes visualizations such as:
+
+- Arrival delay patterns by month.
+- Income distribution by religious affiliation.
+- Median income versus median rent across U.S. states.
+- Temperature and ozone relationships.
+- Student-teacher ratio comparisons.
+- Job-related technology ownership proportions.
+
+These projects helped me practice turning data into visuals that can be interpreted by someone else, not just analyzed in code.
+
+## Functional Programming
+
+The advanced R programming work focused on reducing repetition with functions. I practiced:
+
+- Conditional logic with `if` and `else`.
+- Loops for repeated checks.
+- Custom functions such as power calculations.
+- `apply`, `lapply`, and `sapply`.
+- `purrr::map` workflows.
+- Reusable plotting functions.
+
+The biggest takeaway is that functions make analysis more scalable. Instead of rewriting similar code repeatedly, I can define logic once and apply it consistently.
+
+## Reporting and Data Storytelling
+
+My reflection work connected R programming to dashboards, parameterized reporting, and data storytelling. A strong report should not just display data; it should help the audience focus on what matters.
+
+That lesson is especially important for my sports marketing interests. Whether the audience is a fan base, an athlete, a brand partner, or an internal team, the goal is to communicate information clearly enough for people to make decisions.

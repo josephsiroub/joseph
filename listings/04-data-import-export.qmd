@@ -1,0 +1,27 @@
+---
+title: "Data Import, Export, and Web Scraping"
+image: "../images/hero.jpeg"
+categories: [R, Import Export, Web Scraping, Data Preparation]
+index: 4
+---
+
+## Overview
+
+I focused on bringing data into R from multiple sources, cleaning it, and exporting useful results.
+
+The assignment mirrors a common workplace reality: business data often arrives from spreadsheets, copied tables, web pages, or external systems, and each source needs a slightly different cleaning process.
+
+## Skills Demonstrated
+
+- Importing CSV and Excel files.
+- Cleaning clipboard data with missing value placeholders.
+- Exporting data to CSV and Excel.
+- Scraping IMDb Top 250 movie information from an archived webpage.
+- Working with labelled SPSS data.
+- Combining education and GDP indicators for analysis.
+
+## Value
+
+Import and export skills are essential for real analytics workflows because useful business data rarely arrives in one clean format.
+
+This project also helped me think about reproducibility. Cleaned data and saved plots can be shared with others, included in reports, or used as inputs for later analysis.

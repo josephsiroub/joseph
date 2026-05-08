@@ -1,0 +1,21 @@
+---
+title: "Projects"
+listing:
+  contents: listings
+  type: grid
+  categories: true
+  sort:
+    - "index"
+toc: false
+---
+
+My projects show the technical and professional skills I am building through marketing analytics, GA4, BigQuery, Looker Studio, R programming, data wrangling, and reporting. Each project connects to a practical skill I can use in marketing, sports business, operations, or customer engagement work.
+
+## Project Areas
+
+- **GA4 and customer engagement:** Funnel analysis, traffic behavior, lead acquisition, and conversion recommendations.
+- **Cloud analytics and dashboards:** BigQuery concepts, SQL-based analysis, and Looker Studio reporting.
+- **R analytics:** Tidyverse wrangling, visualization, import/export, missing values, and functional programming.
+- **Professional communication:** Clear summaries, project reflections, next-step recommendations, and client-oriented conclusions.
+
+I am especially interested in using these skills in the sports industry, where fan behavior, media engagement, brand partnerships, and campaign performance all depend on understanding audiences clearly.

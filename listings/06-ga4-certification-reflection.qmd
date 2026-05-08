@@ -1,0 +1,30 @@
+---
+title: "GA4 Certification Reflection"
+image: "../images/hero.jpeg"
+categories: [GA4, Certification, Reporting, Reflection]
+index: 6
+---
+
+## Overview
+
+I passed the Google Analytics certification with a reported score of 88. My reflection connects GA4 concepts to practical customer engagement analysis.
+
+The certification provides evidence of my foundational knowledge in GA4 reporting, implementation concepts, audiences, dimensions, events, and integrations.
+
+## Strong Areas
+
+- GA4 events, audiences, dimensions, and reports.
+- Understanding user acquisition and traffic acquisition.
+- Connecting measurement strategy to business goals.
+
+## Growth Areas
+
+- BigQuery exports and SQL-based analysis.
+- Customizing reports and dimensions.
+- Choosing the right exploration method for a question.
+
+## Portfolio Connection
+
+The certification supports one of my broader professional goals: using analytics platforms to understand user behavior, improve marketing performance, and guide data-driven customer engagement.
+
+It also identifies the next learning path: deeper BigQuery export analysis, stronger report customization, and more confident selection between exploration methods such as free-form analysis and funnel analysis.

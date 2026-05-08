@@ -1,0 +1,28 @@
+---
+title: "R Data Wrangling with Tidyverse"
+image: "../images/hero.jpeg"
+categories: [R, Tidyverse, Data Cleaning, Visualization]
+index: 3
+---
+
+## Overview
+
+I applied tidyverse workflows to clean, reshape, summarize, and visualize datasets such as `airquality`, `relig_income`, `us_rent_income`, and `nycflights13`.
+
+The project strengthened one of the foundations of practical analysis: data must be structured correctly before it can produce reliable charts, tables, or recommendations.
+
+## Skills Demonstrated
+
+- Converting between data frames and tibbles.
+- Filtering, grouping, summarizing, and joining data.
+- Pivoting between wide and long formats.
+- Handling missing values.
+- Building visualizations with `ggplot2`.
+
+## Insight
+
+This work showed me how tidy data principles make analysis easier to communicate, especially when transforming raw datasets into charts and tables that answer a specific business question.
+
+## Professional Takeaway
+
+The most transferable skill is the ability to inspect a dataset, identify whether it is wide or long, reshape it when needed, and then build a visual explanation from the cleaned structure.
