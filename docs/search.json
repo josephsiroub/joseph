@@ -130,56 +130,63 @@
     "href": "r-analytics.html",
     "title": "R Analytics",
     "section": "",
-    "text": "My R analytics work shows my development from basic data manipulation toward more reusable and report-ready workflows. The assignments cover data wrangling, visualization, import/export, missing values, labelled data, web scraping, and functional programming."
+    "text": "My R analytics work demonstrates development from basic data manipulation toward reusable, report-ready workflows. The sections below include live code and visualizations covering data wrangling, missing values, reshaping, and multivariate analysis."
   },
   {
-    "objectID": "r-analytics.html#r-analytics-overview",
-    "href": "r-analytics.html#r-analytics-overview",
+    "objectID": "r-analytics.html#nyc-flights-worst-arrival-delays",
+    "href": "r-analytics.html#nyc-flights-worst-arrival-delays",
     "title": "R Analytics",
-    "section": "",
-    "text": "My R analytics work shows my development from basic data manipulation toward more reusable and report-ready workflows. The assignments cover data wrangling, visualization, import/export, missing values, labelled data, web scraping, and functional programming."
+    "section": "NYC Flights: Worst Arrival Delays",
+    "text": "NYC Flights: Worst Arrival Delays\nIdentifying the 10 worst daily arrival delays across 2013, then averaging by month to reveal seasonal patterns.\n\n\nShow code\nlibrary(nycflights13)\n\nworst_delays &lt;- flights %&gt;%\n  filter(!is.na(arr_delay)) %&gt;%\n  group_by(year, month, day) %&gt;%\n  slice_max(arr_delay, n = 10, with_ties = FALSE) %&gt;%\n  ungroup() %&gt;%\n  group_by(month) %&gt;%\n  summarise(avg_delay = mean(arr_delay))\n\nggplot(worst_delays, aes(x = factor(month), y = avg_delay, group = 1)) +\n  geom_line(color = \"#2f6f73\", linewidth = 1.2) +\n  geom_point(color = \"#c45a2d\", size = 3) +\n  labs(\n    title = \"Average of the 10 Worst Daily Arrival Delays by Month\",\n    subtitle = \"NYC flights, 2013 — extreme delays are surprisingly consistent across months\",\n    x = \"Month\", y = \"Average Delay (minutes)\"\n  ) +\n  theme_minimal(base_size = 13) +\n  theme(plot.title = element_text(face = \"bold\"))\n\n\n\n\n\n\n\n\n\nInsight: The average of the most extreme arrival delays remains relatively constant throughout the year, suggesting that factors causing very large delays (e.g., mechanical issues, air traffic control) are not strongly seasonal."
   },
   {
-    "objectID": "r-analytics.html#data-wrangling-with-tidyverse",
-    "href": "r-analytics.html#data-wrangling-with-tidyverse",
+    "objectID": "r-analytics.html#reshaping-religion-income-distribution",
+    "href": "r-analytics.html#reshaping-religion-income-distribution",
     "title": "R Analytics",
-    "section": "Data Wrangling with Tidyverse",
-    "text": "Data Wrangling with Tidyverse\nThe tidyverse work includes practice with airquality, relig_income, us_rent_income, and nycflights13. Through these exercises, I practiced common data-analysis tasks:\n\nConverting between data frames and tibbles.\nFiltering records by condition.\nGrouping and summarizing values.\nReshaping datasets from wide to long format.\nReshaping datasets from long to wide format.\nCreating ggplot2 visualizations.\nInterpreting whether a dataset is structured appropriately for a chart.\n\nThe main lesson for me is that analysis depends on structure. Before a chart or dashboard can be useful, the data has to be organized in a way that matches the question."
+    "section": "Reshaping: Religion & Income Distribution",
+    "text": "Reshaping: Religion & Income Distribution\nTransforming relig_income from wide to long format, then creating a grouped bar chart.\n\n\nShow code\nrelig_long &lt;- relig_income %&gt;%\n  pivot_longer(-religion, names_to = \"income\", values_to = \"count\") %&gt;%\n  filter(income != \"Don't know/refused\")\n\nggplot(relig_long, aes(x = religion, y = count, fill = income)) +\n  geom_col(position = \"dodge\") +\n  scale_fill_viridis_d() +\n  labs(\n    title = \"Income Distribution by Religious Affiliation\",\n    subtitle = \"Reshaped from wide to long format using pivot_longer()\",\n    x = \"Religion\", y = \"Number of Respondents\", fill = \"Income Bracket\"\n  ) +\n  theme_minimal(base_size = 11) +\n  theme(\n    axis.text.x = element_text(angle = 45, hjust = 1, size = 9),\n    plot.title = element_text(face = \"bold\"),\n    legend.position = \"bottom\"\n  )"
   },
   {
-    "objectID": "r-analytics.html#missing-values-and-data-quality",
-    "href": "r-analytics.html#missing-values-and-data-quality",
+    "objectID": "r-analytics.html#rent-vs.-income-across-us-states",
+    "href": "r-analytics.html#rent-vs.-income-across-us-states",
     "title": "R Analytics",
-    "section": "Missing Values and Data Quality",
-    "text": "Missing Values and Data Quality\nI practiced checking for missing values, summarizing missingness, replacing missing values, and standardizing placeholders such as N/A, --, and numeric missing-value codes.\nThis is an important analytics habit because decisions should not be based on data that has not been reviewed for quality. Before producing a chart or recommendation, I want to understand whether the data is complete, consistent, and reliable."
+    "section": "Rent vs. Income Across US States",
+    "text": "Rent vs. Income Across US States\nUsing pivot_wider() to reshape us_rent_income and explore the income–rent relationship.\n\n\nShow code\nus_rent_income %&gt;%\n  pivot_wider(names_from = variable, values_from = c(estimate, moe)) %&gt;%\n  ggplot(aes(x = estimate_income, y = estimate_rent)) +\n  geom_point(color = \"#2f6f73\", size = 2.5, alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = FALSE, color = \"#c45a2d\", linewidth = 1.2) +\n  labs(\n    title = \"Median Income vs. Median Rent Across US States\",\n    subtitle = \"Strong positive relationship — higher income states have higher rents\",\n    x = \"Median Income (USD)\", y = \"Median Rent (USD)\"\n  ) +\n  theme_minimal(base_size = 13) +\n  theme(plot.title = element_text(face = \"bold\"))"
   },
   {
-    "objectID": "r-analytics.html#data-import-export-and-web-scraping",
-    "href": "r-analytics.html#data-import-export-and-web-scraping",
+    "objectID": "r-analytics.html#missing-value-handling",
+    "href": "r-analytics.html#missing-value-handling",
     "title": "R Analytics",
-    "section": "Data Import, Export, and Web Scraping",
-    "text": "Data Import, Export, and Web Scraping\nMy import/export work includes CSV files, Excel files, clipboard data, SPSS labelled data, and web-scraped data from an archived IMDb page. I also practiced exporting cleaned datasets and saving plots in image and PDF formats.\nThese skills matter because real workplace data often comes from different systems and formats. Being able to import, clean, standardize, and export data is useful in marketing, operations, and sports business environments."
+    "section": "Missing Value Handling",
+    "text": "Missing Value Handling\nIdentifying and imputing missing values in the airquality dataset using mean replacement.\n\n\nShow code\nair.tib &lt;- as_tibble(airquality)\n\nair.tib %&gt;%\n  summarise(\n    missing_n = sum(is.na(Solar.R)),\n    missing_pct = round(mean(is.na(Solar.R)) * 100, 1)\n  ) %&gt;%\n  gt() %&gt;%\n  cols_label(missing_n = \"Missing Count\", missing_pct = \"Missing %\") %&gt;%\n  tab_header(title = \"Solar Radiation: Missing Value Summary\")\n\n\n\n\n\n\n\n\nSolar Radiation: Missing Value Summary\n\n\nMissing Count\nMissing %\n\n\n\n\n7\n4.6\n\n\n\n\n\n\n\n\n\nShow code\nsolar_mean &lt;- air.tib %&gt;%\n  summarise(avg = mean(Solar.R, na.rm = TRUE)) %&gt;%\n  pull(avg)\n\nair.tib &lt;- air.tib %&gt;%\n  mutate(Solar.R = if_else(is.na(Solar.R), solar_mean, Solar.R))\n\npaste(\"Remaining NAs in Solar.R:\", sum(is.na(air.tib$Solar.R)))\n\n\n[1] \"Remaining NAs in Solar.R: 0\""
   },
   {
-    "objectID": "r-analytics.html#visualization-and-reporting",
-    "href": "r-analytics.html#visualization-and-reporting",
+    "objectID": "r-analytics.html#temperature-analysis-by-month",
+    "href": "r-analytics.html#temperature-analysis-by-month",
     "title": "R Analytics",
-    "section": "Visualization and Reporting",
-    "text": "Visualization and Reporting\nThe R work includes visualizations such as:\n\nArrival delay patterns by month.\nIncome distribution by religious affiliation.\nMedian income versus median rent across U.S. states.\nTemperature and ozone relationships.\nStudent-teacher ratio comparisons.\nJob-related technology ownership proportions.\n\nThese projects helped me practice turning data into visuals that can be interpreted by someone else, not just analyzed in code."
+    "section": "Temperature Analysis by Month",
+    "text": "Temperature Analysis by Month\n\nTotal TemperatureMax Temperature\n\n\n\n\nShow code\nair.tib %&gt;%\n  mutate(Month_name = recode(Month,\n    `5` = \"May\", `6` = \"June\", `7` = \"July\",\n    `8` = \"August\", `9` = \"September\"\n  )) %&gt;%\n  group_by(Month_name) %&gt;%\n  summarise(total_temp = sum(Temp)) %&gt;%\n  mutate(Month_name = fct_reorder(Month_name, total_temp)) %&gt;%\n  ggplot(aes(x = total_temp, y = Month_name)) +\n  geom_col(fill = \"#c45a2d\", alpha = 0.85) +\n  labs(title = \"Total Recorded Temperature by Month\",\n       x = \"Total Temperature (°F)\", y = \"\") +\n  theme_minimal(base_size = 13) +\n  theme(plot.title = element_text(face = \"bold\"))\n\n\n\n\n\n\n\n\n\n\n\n\n\nShow code\nair.tib %&gt;%\n  group_by(Month) %&gt;%\n  summarise(max_temp = max(Temp)) %&gt;%\n  mutate(Month = recode(Month,\n    `5` = \"May\", `6` = \"June\", `7` = \"July\",\n    `8` = \"August\", `9` = \"September\"\n  )) %&gt;%\n  mutate(Month = fct_reorder(Month, max_temp, .desc = TRUE)) %&gt;%\n  ggplot(aes(x = Month, y = max_temp)) +\n  geom_col(fill = \"#2f6f73\", alpha = 0.85) +\n  labs(title = \"Highest Temperature by Month\",\n       x = \"Month\", y = \"Maximum Temperature (°F)\") +\n  theme_minimal(base_size = 13) +\n  theme(plot.title = element_text(face = \"bold\"))"
   },
   {
-    "objectID": "r-analytics.html#functional-programming",
-    "href": "r-analytics.html#functional-programming",
+    "objectID": "r-analytics.html#ozone-vs.-temperature-wind-ratio",
+    "href": "r-analytics.html#ozone-vs.-temperature-wind-ratio",
     "title": "R Analytics",
-    "section": "Functional Programming",
-    "text": "Functional Programming\nThe advanced R programming work focused on reducing repetition with functions. I practiced:\n\nConditional logic with if and else.\nLoops for repeated checks.\nCustom functions such as power calculations.\napply, lapply, and sapply.\npurrr::map workflows.\nReusable plotting functions.\n\nThe biggest takeaway is that functions make analysis more scalable. Instead of rewriting similar code repeatedly, I can define logic once and apply it consistently."
+    "section": "Ozone vs. Temperature, Wind & Ratio",
+    "text": "Ozone vs. Temperature, Wind & Ratio\n\n\nShow code\nair.tib %&gt;%\n  mutate(temp_wind = Temp / Wind) %&gt;%\n  pivot_longer(cols = c(Temp, Wind, temp_wind),\n               names_to = \"variable\",\n               values_to = \"value\") %&gt;%\n  ggplot(aes(x = value, y = Ozone)) +\n  geom_point(alpha = 0.6, color = \"#c45a2d\", size = 1.8) +\n  geom_smooth(method = \"lm\", se = FALSE, color = \"#2f6f73\", linewidth = 1) +\n  facet_wrap(~variable, scales = \"free_x\") +\n  labs(\n    title = \"Ozone vs. Temperature, Wind, and Their Ratio\",\n    subtitle = \"Temperature drives ozone up; wind drives it down\",\n    x = \"Variable Value\", y = \"Ozone (ppb)\"\n  ) +\n  theme_minimal(base_size = 13) +\n  theme(\n    plot.title = element_text(face = \"bold\"),\n    strip.text = element_text(face = \"bold\")\n  )\n\n\n\n\n\n\n\n\n\nConclusion: Ozone shows a strong positive association with temperature and a negative association with wind speed. The ratio Temp/Wind does not exhibit a clear linear relationship, confirming that the individual effects are more informative."
   },
   {
-    "objectID": "r-analytics.html#reporting-and-data-storytelling",
-    "href": "r-analytics.html#reporting-and-data-storytelling",
+    "objectID": "r-analytics.html#top-destinations-from-nyc",
+    "href": "r-analytics.html#top-destinations-from-nyc",
     "title": "R Analytics",
-    "section": "Reporting and Data Storytelling",
-    "text": "Reporting and Data Storytelling\nMy reflection work connected R programming to dashboards, parameterized reporting, and data storytelling. A strong report should not just display data; it should help the audience focus on what matters.\nThat lesson is especially important for my sports marketing interests. Whether the audience is a fan base, an athlete, a brand partner, or an internal team, the goal is to communicate information clearly enough for people to make decisions."
+    "section": "Top Destinations from NYC",
+    "text": "Top Destinations from NYC\n\n\nShow code\nflights %&gt;%\n  count(dest, sort = TRUE) %&gt;%\n  slice_head(n = 10) %&gt;%\n  gt() %&gt;%\n  cols_label(dest = \"Destination\", n = \"Number of Flights\") %&gt;%\n  tab_header(\n    title = \"Top 10 Destinations from NYC\",\n    subtitle = \"2013 flight data — major hubs dominate\"\n  ) %&gt;%\n  fmt_number(columns = n, use_seps = TRUE, decimals = 0)\n\n\n\n\n\n\n\n\nTop 10 Destinations from NYC\n\n\n2013 flight data — major hubs dominate\n\n\nDestination\nNumber of Flights\n\n\n\n\nORD\n17,283\n\n\nATL\n17,215\n\n\nLAX\n16,174\n\n\nBOS\n15,508\n\n\nMCO\n14,082\n\n\nCLT\n14,064\n\n\nSFO\n13,331\n\n\nFLL\n12,055\n\n\nMIA\n11,728\n\n\nDCA\n9,705"
+  },
+  {
+    "objectID": "r-analytics.html#functional-programming-in-r",
+    "href": "r-analytics.html#functional-programming-in-r",
+    "title": "R Analytics",
+    "section": "Functional Programming in R",
+    "text": "Functional Programming in R\n\nReusable Chart Function\nUsing custom functions and lapply() to automate chart generation across multiple years.\n\n\nShow code\nplot_ratio &lt;- function(year_input) {\n  student_ratio %&gt;%\n    filter(year == year_input) %&gt;%\n    top_n(10, student_ratio) %&gt;%\n    ggplot(aes(x = reorder(country, student_ratio), y = student_ratio)) +\n    geom_col(fill = \"#2f6f73\", alpha = 0.85) +\n    coord_flip() +\n    labs(\n      title = \"Top 10 Countries by Student-Teacher Ratio\",\n      subtitle = paste(\"Year:\", year_input),\n      x = \"\", y = \"Student-Teacher Ratio\"\n    ) +\n    theme_minimal(base_size = 12) +\n    theme(plot.title = element_text(face = \"bold\"))\n}\n\n\n\n2012201420162017\n\n\n\n\nShow code\nplot_ratio(2012)\n\n\n\n\n\n\n\n\n\n\n\n\n\nShow code\nplot_ratio(2014)\n\n\n\n\n\n\n\n\n\n\n\n\n\nShow code\nplot_ratio(2016)\n\n\n\n\n\n\n\n\n\n\n\n\n\nShow code\nplot_ratio(2017)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNested Data: Ozone by Month\n\n\nShow code\nmean_ozone &lt;- function(data) {\n  data %&gt;%\n    group_by(Month) %&gt;%\n    summarise(mean_ozone = mean(Ozone, na.rm = TRUE))\n}\n\nresult &lt;- mean_ozone(airquality)\n\nresult %&gt;%\n  mutate(Month = recode(Month,\n    `5` = \"May\", `6` = \"June\", `7` = \"July\",\n    `8` = \"August\", `9` = \"September\"\n  )) %&gt;%\n  gt() %&gt;%\n  tab_header(title = \"Average Ozone by Month\") %&gt;%\n  cols_label(Month = \"Month\", mean_ozone = \"Mean Ozone (ppb)\") %&gt;%\n  fmt_number(columns = mean_ozone, decimals = 1)\n\n\n\n\n\n\n\n\nAverage Ozone by Month\n\n\nMonth\nMean Ozone (ppb)\n\n\n\n\nMay\n23.6\n\n\nJune\n29.4\n\n\nJuly\n59.1\n\n\nAugust\n60.0\n\n\nSeptember\n31.4\n\n\n\n\n\n\n\nKey takeaway: Functions make analysis scalable. Instead of rewriting similar code, you define logic once and apply it consistently across different inputs."
   },
   {
     "objectID": "projects.html",
@@ -196,46 +203,53 @@
     "text": "Project Areas\n\nGA4 and customer engagement: Funnel analysis, traffic behavior, lead acquisition, and conversion recommendations.\nCloud analytics and dashboards: BigQuery concepts, SQL-based analysis, and Looker Studio reporting.\nR analytics: Tidyverse wrangling, visualization, import/export, missing values, and functional programming.\nProfessional communication: Clear summaries, project reflections, next-step recommendations, and client-oriented conclusions.\n\nI am especially interested in using these skills in the sports industry, where fan behavior, media engagement, brand partnerships, and campaign performance all depend on understanding audiences clearly."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "coursework.html",
+    "href": "coursework.html",
+    "title": "Coursework",
     "section": "",
-    "text": "I am currently a student at California State Polytechnic University, Pomona, where I am majoring in Marketing Management. I graduate in one year, and I am focused on building a career that allows me to combine marketing, communication, sports, media, and business strategy.\nBefore transferring to Cal Poly Pomona, I attended Mt. San Antonio College and earned my Associate of Science in Marketing Management. That path helped me build a strong foundation in marketing fundamentals, business communication, customer engagement, and professional organization."
+    "text": "The coursework below documents completed classes across marketing, analytics, business, communication, and general education at California State Polytechnic University, Pomona, and Mt. San Antonio College."
   },
   {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About",
-    "section": "",
-    "text": "I am currently a student at California State Polytechnic University, Pomona, where I am majoring in Marketing Management. I graduate in one year, and I am focused on building a career that allows me to combine marketing, communication, sports, media, and business strategy.\nBefore transferring to Cal Poly Pomona, I attended Mt. San Antonio College and earned my Associate of Science in Marketing Management. That path helped me build a strong foundation in marketing fundamentals, business communication, customer engagement, and professional organization."
+    "objectID": "coursework.html#marketing-and-analytics",
+    "href": "coursework.html#marketing-and-analytics",
+    "title": "Coursework",
+    "section": "Marketing and Analytics",
+    "text": "Marketing and Analytics\n\n\n\nCode\nCourse\n\n\n\n\nIBM 3012\nPrinciples of Marketing Mgmt\n\n\nIBM 3062\nProfessional Selling\n\n\nIBM 3072\nPromotional Strategies\n\n\nIBM 3202\nMarket Analysis and Control\n\n\nIBM 3302\nMarketing Research\n\n\nIBM 4112\nConsumer Behavior\n\n\nGBA 5910\nStrategic Wrangling & Visualization\n\n\nTOM 3020\nStatistical Fndtn Bus Analytic\n\n\nSTA 1205\nStats w/Applications w/Support"
   },
   {
-    "objectID": "about.html#career-direction",
-    "href": "about.html#career-direction",
-    "title": "About",
-    "section": "Career Direction",
-    "text": "Career Direction\nMy career aspiration is to work in the sports world. I am especially interested in roles where I can use marketing skills in sports media, athlete representation, brand engagement, or agency work. I want to be involved in the business side of sports, helping athletes, teams, brands, or media organizations connect with audiences in a meaningful and professional way.\nSports have always shaped the way I approach work. A competitive sports background has taught me discipline, accountability, teamwork, leadership, and how to perform under pressure. Those qualities are important to me because the sports industry moves quickly and depends on trust, preparation, communication, and results."
+    "objectID": "coursework.html#business-management-finance-and-economics",
+    "href": "coursework.html#business-management-finance-and-economics",
+    "title": "Coursework",
+    "section": "Business, Management, Finance, and Economics",
+    "text": "Business, Management, Finance, and Economics\n\n\n\nCode\nCourse\n\n\n\n\nACC 2070\nFin Acc For Decision Making\n\n\nACC 2080\nMngr Acc For Decision Making\n\n\nBUS 2500\nApplied Business Communication\n\n\nCIS 1010\nIntro to Personal Computing\n\n\nCIS 3100\nManagement Information Systems\n\n\nEC 2201\nPrinciples of Microeconomics\n\n\nEC 2202\nPrinciples of Macroeconomics\n\n\nFRL 2013\nLegal Env of Bus and its Txn\n\n\nFRL 3000\nManagerial Finance\n\n\nMHR 3010\nPrinciples of Management\n\n\nMHR 3020\nOrganizational Behavior\n\n\nTOM 3010\nOperations Management"
   },
   {
-    "objectID": "about.html#academic-and-professional-background",
-    "href": "about.html#academic-and-professional-background",
-    "title": "About",
-    "section": "Academic and Professional Background",
-    "text": "Academic and Professional Background\nMy academic work has focused on marketing strategy, consumer behavior, business operations, communication, analytics, and organizational management. Through coursework and projects, I have gained experience with Google Analytics 4, BigQuery, Looker Studio, R programming, dashboard reporting, data wrangling, and customer engagement analysis.\nProfessionally, I have hands-on experience in operations and compliance support. In my current role at Integrated Demolition & Remediation, I support administrative coordination, payroll processing, compliance documentation, data entry, project communication, and job-site operational needs. This experience has made me more organized, detail-oriented, and comfortable working with different teams in fast-paced environments."
+    "objectID": "coursework.html#communication-humanities-and-social-sciences",
+    "href": "coursework.html#communication-humanities-and-social-sciences",
+    "title": "Coursework",
+    "section": "Communication, Humanities, and Social Sciences",
+    "text": "Communication, Humanities, and Social Sciences\n\n\n\nCode\nCourse\n\n\n\n\nCOM 2204\nAdvocacy and Argument\n\n\nENG 1103\nFirst Year Composition\n\n\nHST 2201\nUnited States History to 1877\n\n\nPHL 2020\nCritical Thinking\n\n\nPHL 2040\nEthical Prob in Contemp Life\n\n\nPLS 2010\nIntro to American Government\n\n\nPSY 2201\nIntroduction to Psychology\n\n\nSOC 1010\nIntroduction to Sociology\n\n\nART 1010\nArt Appreciation"
   },
   {
-    "objectID": "about.html#what-i-bring",
-    "href": "about.html#what-i-bring",
-    "title": "About",
-    "section": "What I Bring",
-    "text": "What I Bring\nI bring a mix of marketing knowledge, operational experience, analytical curiosity, and a team-first mindset. I am comfortable handling detailed work, communicating across departments, learning new tools, and staying reliable when responsibilities need to be managed accurately.\nThe strongest part of my professional identity is that I care about both the strategy and the execution. I want to understand the big-picture marketing goal, but I also respect the detailed work required to make that goal happen."
+    "objectID": "coursework.html#science-math-and-general-education",
+    "href": "coursework.html#science-math-and-general-education",
+    "title": "Coursework",
+    "section": "Science, Math, and General Education",
+    "text": "Science, Math, and General Education\n\n\n\nCode\nCourse\n\n\n\n\nBIO 1150\nBiology and Society\n\n\nBIO 1150L\nBiology and Society Laboratory\n\n\nGSC 1160\nIntroduction to Astronomy\n\n\nMAT 1250\nIntro Calculus for Business\n\n\nKIN 1041\nFitness and Conditioning\n\n\nLS 1020\nKnwldg Lrning Engmnt Success"
   },
   {
-    "objectID": "about.html#portfolio-focus",
-    "href": "about.html#portfolio-focus",
-    "title": "About",
-    "section": "Portfolio Focus",
-    "text": "Portfolio Focus\nThis portfolio highlights the skills I am building as I move toward a career in sports marketing and business. It includes marketing analytics work, GA4 certification evidence, dashboard concepts, R analytics projects, and professional experience that shows my ability to stay organized, communicate clearly, and support business operations."
+    "objectID": "coursework.html#mt.-san-antonio-college-transfer-credits",
+    "href": "coursework.html#mt.-san-antonio-college-transfer-credits",
+    "title": "Coursework",
+    "section": "Mt. San Antonio College (Transfer Credits)",
+    "text": "Mt. San Antonio College (Transfer Credits)\n\n\n\nCode\nCourse\n\n\n\n\nMKT 10\nPrinciples of Marketing\n\n\nMKT 20\nAdvertising\n\n\nBUS 1A\nFinancial Accounting\n\n\nBUS 1B\nManagerial Accounting\n\n\nBUS 8\nIntro to Business\n\n\nECON 2\nPrinciples of Microeconomics\n\n\nECON 4\nPrinciples of Macroeconomics\n\n\nMATH 150\nCalculus for Business\n\n\nENGL 1A\nFreshman Composition\n\n\nCOMM 1A\nPublic Speaking\n\n\nPSYC 1A\nIntroduction to Psychology\n\n\nPOLI 1\nAmerican Government\n\n\nSPCH 1A\nOral Communication"
+  },
+  {
+    "objectID": "coursework.html#full-course-list",
+    "href": "coursework.html#full-course-list",
+    "title": "Coursework",
+    "section": "Full Course List",
+    "text": "Full Course List\n\n\n\n\nCode\n\n\nCourse\n\n\n\n\n\n\nACC 2070\n\n\nFin Acc For Decision Making\n\n\n\n\nACC 2080\n\n\nMngr Acc For Decision Making\n\n\n\n\nART 1010\n\n\nArt Appreciation\n\n\n\n\nBIO 1150\n\n\nBiology and Society\n\n\n\n\nBIO 1150L\n\n\nBiology and Society Laboratory\n\n\n\n\nBUS 2500\n\n\nApplied Business Communication\n\n\n\n\nCIS 1010\n\n\nIntro to Personal Computing\n\n\n\n\nCIS 3100\n\n\nManagement Information Systems\n\n\n\n\nCOM 2204\n\n\nAdvocacy and Argument\n\n\n\n\nEC 2201\n\n\nPrinciples of Microeconomics\n\n\n\n\nEC 2202\n\n\nPrinciples of Macroeconomics\n\n\n\n\nENG 1103\n\n\nFirst Year Composition\n\n\n\n\nFRL 2013\n\n\nLegal Env of Bus and its Txn\n\n\n\n\nFRL 3000\n\n\nManagerial Finance\n\n\n\n\nGBA 5910\n\n\nStrategic Wrangling & Visualization\n\n\n\n\nGSC 1160\n\n\nIntroduction to Astronomy\n\n\n\n\nHST 2201\n\n\nUnited States History to 1877\n\n\n\n\nIBM 3012\n\n\nPrinciples of Marketing Mgmt\n\n\n\n\nIBM 3062\n\n\nProfessional Selling\n\n\n\n\nIBM 3072\n\n\nPromotional Strategies\n\n\n\n\nIBM 3202\n\n\nMarket Analysis and Control\n\n\n\n\nIBM 3302\n\n\nMarketing Research\n\n\n\n\nIBM 4112\n\n\nConsumer Behavior\n\n\n\n\nKIN 1041\n\n\nFitness and Conditioning\n\n\n\n\nLS 1020\n\n\nKnwldg Lrning Engmnt Success\n\n\n\n\nMAT 1250\n\n\nIntro Calculus for Business\n\n\n\n\nMHR 3010\n\n\nPrinciples of Management\n\n\n\n\nMHR 3020\n\n\nOrganizational Behavior\n\n\n\n\nPHL 2020\n\n\nCritical Thinking\n\n\n\n\nPHL 2040\n\n\nEthical Prob in Contemp Life\n\n\n\n\nPLS 2010\n\n\nIntro to American Government\n\n\n\n\nPSY 2201\n\n\nIntroduction to Psychology\n\n\n\n\nSOC 1010\n\n\nIntroduction to Sociology\n\n\n\n\nSTA 1205\n\n\nStats w/Applications w/Support\n\n\n\n\nTOM 3010\n\n\nOperations Management\n\n\n\n\nTOM 3020\n\n\nStatistical Fndtn Bus Analytic"
   },
   {
     "objectID": "index.html",
@@ -280,18 +294,60 @@
     "text": "I am interested in opportunities where I can contribute marketing, communication, analytics, and operations skills, especially in sports-focused environments.\nsiroubjoseph@gmail.com · LinkedIn · GitHub"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am currently a student at California State Polytechnic University, Pomona, where I am majoring in Marketing Management. I graduate in one year, and I am focused on building a career that allows me to combine marketing, communication, sports, media, and business strategy.\nBefore transferring to Cal Poly Pomona, I attended Mt. San Antonio College and earned my Associate of Science in Marketing Management. That path helped me build a strong foundation in marketing fundamentals, business communication, customer engagement, and professional organization."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "I am currently a student at California State Polytechnic University, Pomona, where I am majoring in Marketing Management. I graduate in one year, and I am focused on building a career that allows me to combine marketing, communication, sports, media, and business strategy.\nBefore transferring to Cal Poly Pomona, I attended Mt. San Antonio College and earned my Associate of Science in Marketing Management. That path helped me build a strong foundation in marketing fundamentals, business communication, customer engagement, and professional organization."
+  },
+  {
+    "objectID": "about.html#career-direction",
+    "href": "about.html#career-direction",
+    "title": "About",
+    "section": "Career Direction",
+    "text": "Career Direction\nMy career aspiration is to work in the sports world. I am especially interested in roles where I can use marketing skills in sports media, athlete representation, brand engagement, or agency work. I want to be involved in the business side of sports, helping athletes, teams, brands, or media organizations connect with audiences in a meaningful and professional way.\nSports have always shaped the way I approach work. A competitive sports background has taught me discipline, accountability, teamwork, leadership, and how to perform under pressure. Those qualities are important to me because the sports industry moves quickly and depends on trust, preparation, communication, and results."
+  },
+  {
+    "objectID": "about.html#academic-and-professional-background",
+    "href": "about.html#academic-and-professional-background",
+    "title": "About",
+    "section": "Academic and Professional Background",
+    "text": "Academic and Professional Background\nMy academic work has focused on marketing strategy, consumer behavior, business operations, communication, analytics, and organizational management. Through coursework and projects, I have gained experience with Google Analytics 4, BigQuery, Looker Studio, R programming, dashboard reporting, data wrangling, and customer engagement analysis.\nProfessionally, I have hands-on experience in operations and compliance support. In my current role at Integrated Demolition & Remediation, I support administrative coordination, payroll processing, compliance documentation, data entry, project communication, and job-site operational needs. This experience has made me more organized, detail-oriented, and comfortable working with different teams in fast-paced environments."
+  },
+  {
+    "objectID": "about.html#what-i-bring",
+    "href": "about.html#what-i-bring",
+    "title": "About",
+    "section": "What I Bring",
+    "text": "What I Bring\nI bring a mix of marketing knowledge, operational experience, analytical curiosity, and a team-first mindset. I am comfortable handling detailed work, communicating across departments, learning new tools, and staying reliable when responsibilities need to be managed accurately.\nThe strongest part of my professional identity is that I care about both the strategy and the execution. I want to understand the big-picture marketing goal, but I also respect the detailed work required to make that goal happen."
+  },
+  {
+    "objectID": "about.html#portfolio-focus",
+    "href": "about.html#portfolio-focus",
+    "title": "About",
+    "section": "Portfolio Focus",
+    "text": "Portfolio Focus\nThis portfolio highlights the skills I am building as I move toward a career in sports marketing and business. It includes marketing analytics work, GA4 certification evidence, dashboard concepts, R analytics projects, and professional experience that shows my ability to stay organized, communicate clearly, and support business operations."
+  },
+  {
     "objectID": "skills.html",
     "href": "skills.html",
     "title": "Skills",
     "section": "",
-    "text": "My skillset combines marketing management, business operations, analytics, communication, and a strong interest in sports media and brand engagement. I am continuing to build technical skills while also developing the professional habits needed in fast-paced business and sports environments."
+    "text": "My skillset combines marketing management, business operations, analytics, communication, and a strong interest in sports media and brand engagement. Below are the skills I have demonstrated through coursework projects with live code and real data."
   },
   {
     "objectID": "skills.html#skill-overview",
     "href": "skills.html#skill-overview",
     "title": "Skills",
     "section": "",
-    "text": "My skillset combines marketing management, business operations, analytics, communication, and a strong interest in sports media and brand engagement. I am continuing to build technical skills while also developing the professional habits needed in fast-paced business and sports environments."
+    "text": "My skillset combines marketing management, business operations, analytics, communication, and a strong interest in sports media and brand engagement. Below are the skills I have demonstrated through coursework projects with live code and real data."
   },
   {
     "objectID": "skills.html#marketing-business-skills",
@@ -305,28 +361,28 @@
     "href": "skills.html#analytics-platforms",
     "title": "Skills",
     "section": "Analytics Platforms",
-    "text": "Analytics Platforms\nI have completed coursework and projects using Google Analytics 4 concepts and the GA4 demo account. My analytics platform experience includes:\n\nGA4 certification concepts\nEvent, audience, dimension, and report interpretation\nUser acquisition and traffic acquisition reporting\nFunnel exploration\nPath and drop-off analysis\nAudience activation concepts\nKPI selection for customer engagement\nBigQuery export concepts\nLooker Studio dashboard communication"
+    "text": "Analytics Platforms\nI have completed coursework and projects using Google Analytics 4 concepts and the GA4 demo account. My analytics platform experience includes:\n\nGA4 Certification — Passed with a score of 88\nEvent, audience, dimension, and report interpretation\nUser acquisition and traffic acquisition reporting\nFunnel exploration and path/drop-off analysis\nAudience activation concepts\nKPI selection for customer engagement\nBigQuery export concepts and SQL querying\nLooker Studio dashboard design and communication\n\nView GA4 & Dashboard work →"
   },
   {
     "objectID": "skills.html#r-data-analytics",
     "href": "skills.html#r-data-analytics",
     "title": "Skills",
     "section": "R & Data Analytics",
-    "text": "R & Data Analytics\nMy R coursework has helped me practice cleaning, transforming, analyzing, and visualizing data. Tools and concepts include:\n\nR\nTidyverse workflows\ndplyr filtering, grouping, summarizing, and mutating\ntidyr reshaping with wide and long formats\nggplot2 visualization\nlubridate date handling\nforcats factor handling\njanitor data cleaning\nnaniar missing value workflows\ngt and gtsummary table presentation\npurrr and functional programming"
+    "text": "R & Data Analytics\nMy R coursework includes live, executable code with real visualizations. Tools and demonstrated skills include:\n\nTidyverse workflows — dplyr filtering, grouping, summarizing, and mutating\nData reshaping — pivot_longer and pivot_wider with tidyr\nVisualization — ggplot2 bar charts, scatter plots, line charts, and faceted plots\nMissing value handling — naniar, mean imputation, NA standardization\nDate handling — lubridate for parsing and manipulating dates\nFactor management — forcats for meaningful ordering\nData cleaning — janitor for column name standardization\nTable presentation — gt and gtsummary for professional tables\nFunctional programming — purrr::map workflows and custom reusable functions\n\nView R Analytics with live code →"
   },
   {
     "objectID": "skills.html#data-preparation",
     "href": "skills.html#data-preparation",
     "title": "Skills",
     "section": "Data Preparation",
-    "text": "Data Preparation\nMy import/export coursework covers the practical movement of data between files, tools, and reports:\n\nCSV import and cleaning\nExcel import and export\nClipboard data import\nMissing value standardization\nWeb scraping with rvest\nLabelled SPSS data handling\nExporting charts to image and PDF formats\nCombining external datasets for analysis"
+    "text": "Data Preparation\nMy import/export coursework covers the practical movement of data between files, tools, and reports:\n\nCSV import and cleaning with semicolon delimiters\nExcel import and export with readxl and writexl\nClipboard data import for quick analysis\nMissing value standardization (N/A, –, numeric codes)\nWeb scraping with rvest (IMDb Top 250 movies)\nLabelled SPSS data handling with haven\nExporting charts to PNG, JPEG, and PDF formats\nCombining external datasets (World Bank indicators + student-teacher ratios)"
   },
   {
     "objectID": "skills.html#operations-administrative-skills",
     "href": "skills.html#operations-administrative-skills",
     "title": "Skills",
     "section": "Operations & Administrative Skills",
-    "text": "Operations & Administrative Skills\nMy professional experience has strengthened skills that are valuable in business, marketing, and sports operations:\n\nPayroll processing\nCompliance documentation\nI-9 and W-4 document handling\nHigh-volume data entry\nConfidential records management\nDocumentation organization\nMicrosoft Excel\nMicrosoft Office Suite\nClient and team communication\nTime management and multitasking"
+    "text": "Operations & Administrative Skills\nMy professional experience at Integrated Demolition & Remediation has strengthened skills valuable in business, marketing, and sports operations:\n\nPayroll processing and compliance documentation\nI-9 and W-4 document handling\nHigh-volume data entry with accuracy\nConfidential records management\nDocumentation organization\nMicrosoft Excel and Office Suite proficiency\nClient and team communication\nTime management and multitasking"
   },
   {
     "objectID": "skills.html#professional-strengths",
@@ -378,18 +434,18 @@
     "text": "Recommended Next Steps\n\nSegment the funnel by traffic source and device type.\nReview behavior flow to understand why users abandon the homepage.\nImprove homepage product visibility and calls-to-action.\nRun A/B tests on homepage layout or featured products.\nUse BigQuery exports for larger trend analysis that is difficult to complete inside the GA4 interface alone."
   },
   {
+    "objectID": "strategic-marketing.html#bigquery-looker-studio",
+    "href": "strategic-marketing.html#bigquery-looker-studio",
+    "title": "GA4 & Dashboards",
+    "section": "BigQuery & Looker Studio",
+    "text": "BigQuery & Looker Studio\n\nData Mining with BigQuery\nMy BigQuery coursework focused on using this serverless cloud tool to efficiently query and analyze massive datasets. Key skills developed included:\n\nWriting SQL queries for filtering, grouping, and aggregating data\nJoining tables to uncover trends and patterns in real-world, publicly available data\nUnderstanding how BigQuery supports analytics workflows beyond GA4’s built-in capabilities\n\n\n\nInteractive Dashboard Design in Looker Studio\nI learned how to build interactive dashboards by connecting BigQuery data to Looker Studio. Key experiences included:\n\nCreating time-series visualizations — Built line charts to demonstrate temperature and engagement trends\nCustomizing chart types — Experimented with column charts, geo charts, and combination charts to find the most effective format for each insight\nDashboard design principles — Learned that the right visualization choice is critical for communicating information effectively to different audiences\n\n\n\nBuilding a Full Analytics Workflow\nThe most valuable lesson was executing a complete analytics process: from querying raw data in BigQuery to presenting polished results in Looker Studio. This demonstrated how to derive insights and support decision-making systematically — a workflow directly applicable to sports marketing, fan engagement analysis, ticketing, and sponsorship performance tracking."
+  },
+  {
     "objectID": "strategic-marketing.html#dashboard-communication",
     "href": "strategic-marketing.html#dashboard-communication",
     "title": "GA4 & Dashboards",
     "section": "Dashboard Communication",
     "text": "Dashboard Communication\nMy Looker Studio work helped me understand that dashboards should simplify information rather than overwhelm the viewer. A useful dashboard should highlight the most important metrics, provide enough context for interpretation, and help the audience understand what action should come next.\nThis lesson connects directly to my sports marketing interests. In sports media, fan engagement, ticketing, sponsorship, and athlete branding, dashboards can help teams and agencies understand what content or campaigns are actually connecting with an audience."
-  },
-  {
-    "objectID": "strategic-marketing.html#bigquery-and-looker-studio",
-    "href": "strategic-marketing.html#bigquery-and-looker-studio",
-    "title": "GA4 & Dashboards",
-    "section": "BigQuery and Looker Studio",
-    "text": "BigQuery and Looker Studio\nThe BigQuery and Looker Studio work showed me how a full analytics workflow can move from querying data to presenting insights. BigQuery supports deeper analysis with large datasets, while Looker Studio helps communicate findings visually.\nIn a sports or marketing environment, that kind of workflow could be used to analyze campaign engagement, audience behavior, social media performance, ticketing interest, sponsorship activations, or regional fan trends."
   },
   {
     "objectID": "experience.html",
