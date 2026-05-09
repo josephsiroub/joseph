@@ -393,3 +393,27 @@ pre code {
     justify-content: flex-start;
   }
 }
+
+/* ── Course Table ── */
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 2rem;
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid $neutral-2;
+  padding: .7rem .8rem;
+  vertical-align: top;
+}
+
+.course-table th {
+  background: $neutral-1;
+}
+
+.course-code {
+  width: 9rem;
+  color: $color-secondary;
+  font-weight: 700;
+}
