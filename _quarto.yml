@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "rendered/**"
   render:
     - "index.qmd"
     - "about.qmd"
@@ -10,6 +12,7 @@ project:
     - "strategic-marketing.qmd"
     - "r-analytics.qmd"
     - "experience.qmd"
+    - "presentations.qmd"
     - "resume.qmd"
     - "listings/*.qmd"
 
@@ -33,6 +36,8 @@ website:
         href: r-analytics.qmd
       - text: "Experience"
         href: experience.qmd
+      - text: "Revealjs Presentations"
+        href: presentations.qmd
       - text: "Resume"
         href: resume.qmd
     right:
